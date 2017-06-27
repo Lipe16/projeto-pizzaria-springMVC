@@ -1,0 +1,72 @@
+/**
+ * 
+ */
+$(document).ready(function(){
+
+	aplicarListners();
+	
+
+	
+});
+
+var limparModal = function(){
+	$('#id').val('');
+	$('#nome').val('');
+	$('#preco').val('');
+	$('#categoria').val('');
+	$('#ingredientes option').attr('selected', false);
+};
+
+
+var aplicarListners = function(){
+	
+	$('#modal-pizza').on('hide.bs.modal', limparModal);
+	
+	
+	
+	//--------------------------------------
+	$('#btn-salvar').on('click', function(){
+				
+		var url = 'pizzas';
+		var dadosPizza = $('#form-pizza').serialize();
+		
+		$.post(url, dadosPizza)
+			.done(function(pagina){
+
+				$('#secao-pizzas').html(pagina);
+				aplicarListners();
+			})
+			.fail(function(){
+				alert('Erro ao salvar!');
+				
+			})
+			.always(function(){
+				$('#modal-pizza').modal('hide');
+			});
+	});
+	
+		
+
+	//-----------------------------------
+	$('.btn-deletar').on('click', function(){
+		
+		
+		var id = $(this).parents('tr').data('id');
+		
+		var ingredientes = $('#quantidade-pizzas').text();
+
+	    $.ajax({
+	    	        url: "pizzas/"+id,
+	    	        type: "DELETE",
+	    	        //  type: 'DELETE',
+	    	        success: function(result){
+	    	            $('tr[data-id="'+id+'"]').remove();
+	    	            $('#quantidade-ingredientes').text(ingredientes - 1);
+	    	        }
+	    	    })
+		
+		
+	});
+	
+}
+

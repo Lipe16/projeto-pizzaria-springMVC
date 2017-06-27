@@ -18,10 +18,16 @@
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
-<fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.repositorios.IngredienteRepositorio"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
 <fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.enumeracoes.CategoriaDePizza"/>
-<fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.entidades.Ingrediente"/>
 <fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.entidades.Pizza"/>
 <fullyQualifiedTypeName name="java.util.EnumSet"/>
+<fullyQualifiedTypeName name="java.beans.PropertyEditorSupport"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.repositorios.IngredienteRepositorio"/>
+<fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.entidades.Ingrediente"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.InitBinder"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.WebDataBinder"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="br.com.filipe.pizzaria.propertyeditors.IngredientePropertyEditor"/>
 </qualifiedTypeNameHistroy>

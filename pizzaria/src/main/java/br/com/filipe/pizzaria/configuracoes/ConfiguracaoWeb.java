@@ -13,11 +13,15 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 @ComponentScan(basePackages="br.com.filipe.pizzaria")// diz ao spring quais classes scanear
 public class ConfiguracaoWeb extends WebMvcConfigurerAdapter{
 	
+	// viewResouver pega a requisição spring e vai procurar as paginas que precisam ser renderizadas
+	// para apresentar uma view especifica
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
+		// precura views baseadas no url
 		UrlBasedViewResolver viewResolver = new UrlBasedViewResolver();
 		viewResolver.setPrefix("/WEB-INF/");
 		viewResolver.setSuffix(".jsp");
+		//jstl é o código java na sua forma html (for, if...)
 		viewResolver.setViewClass(JstlView.class);
 		registry.viewResolver(viewResolver);
 	}

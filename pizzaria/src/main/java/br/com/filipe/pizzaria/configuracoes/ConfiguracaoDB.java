@@ -17,7 +17,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 @Configuration
+//habilita gerenciamento de transação do spring
 @EnableTransactionManagement
+//habilita repositorios do JPA
 @EnableJpaRepositories(basePackages = "br.com.filipe.pizzaria.modelo.repositorios")
 public class ConfiguracaoDB {
 	
@@ -31,14 +33,17 @@ public class ConfiguracaoDB {
 		return dataSource;
 	}
 	
+	// classe do spring que encapsula as funcionalidades do hibernate
 	@Bean
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory() throws Exception {
+		// configura local entity maneger
 		LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
 		entityManagerFactoryBean.setDataSource(dataSource());
 		entityManagerFactoryBean.setPackagesToScan("br.com.filipe.pizzaria.modelo.entidades");
 		entityManagerFactoryBean.setPersistenceProviderClass(HibernatePersistenceProvider.class);
-		entityManagerFactoryBean.setJpaDialect(new HibernateJpaDialect());
+		entityManagerFactoryBean.setJpaDialect(new HibernateJpaDialect());// tradução das exceções do hibernate para o spring
 		
+		//propriedades do hibernate JPA
 		Properties jpaProterties = new Properties();
 		jpaProterties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
 		jpaProterties.put("hibernate.hbm2ddl.auto", "update");
@@ -46,7 +51,8 @@ public class ConfiguracaoDB {
 		return entityManagerFactoryBean;
 	}
 	
-
+	
+	//gerencia as transações do hibernate
 	@Bean
 	public JpaTransactionManager transactionManager() throws Exception {
 		JpaTransactionManager transactionManager = new JpaTransactionManager();

@@ -1,3 +1,10 @@
+<!-- 
+BIBLIOTECAS
+C - JSTL (PRA AJUDAR A IMPLEMENTAR CÓDIGO JAVA  EM FORMA HTML)
+FMT - JSTL DE FORMATAÇÃO
+SPRING - SPRING
+FORM - FORMULARIOS SPRING
+ -->
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
@@ -28,6 +35,13 @@
 					<select id="categoria" name="categoria" class="form-control">
 						<c:forEach items="${categorias}" var="categoria">
 							<option value="${categoria}">${categoria}</option>
+						</c:forEach>
+					</select>
+					
+					<label for="ingredientes">Ingredientes: </label>
+					<select id="ingredientes" name="ingredientes" class="form-control" multiple="multiple">
+						<c:forEach items="${ingredientes}" var="ingrediente">
+							<option value="${ingrediente.id}">${ingrediente.nome}</option>
 						</c:forEach>
 					</select>
 					

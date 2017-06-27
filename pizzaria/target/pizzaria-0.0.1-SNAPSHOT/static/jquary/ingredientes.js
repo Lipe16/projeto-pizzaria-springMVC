@@ -13,7 +13,7 @@ $(document).ready(function(){
 });
 
 var limparModal = function(){
-	$('#id').val('0');
+	$('#id').val('');
 	$('#nome').val('');
 	
 	
@@ -44,9 +44,13 @@ var aplicarListnersSalvar = function(){
 	});
 }
 
+
 var aplicarListners = function(){
 	
 	$('#modal-ingrediente').on('hide.bs.modal', limparModal);
+	
+	
+	
 	
 	//------------------------------------
 	$('.btn-editar').on('click', function(){
@@ -55,7 +59,7 @@ var aplicarListners = function(){
 		var url = 'ingredientes/'+id;
 		
 		$.get(url)
-		.done(function(ingrediente){//pega um objeto json
+		.done(function(ingrediente){//pega um objeto json que a pagina contem
 	    	
 			$('#id').val(ingrediente.id);
 			$('#nome').val(ingrediente.nome);

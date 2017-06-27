@@ -51,6 +51,13 @@ public final class tabela_002dingrediente_jsp extends org.apache.jasper.runtime.
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
+      out.write("<!-- \r\n");
+      out.write("BIBLIOTECAS\r\n");
+      out.write("C - JSTL (PRA AJUDAR A IMPLEMENTAR CÓDIGO JAVA  EM FORMA HTML)\r\n");
+      out.write("FMT - JSTL DE FORMATAÇÃO\r\n");
+      out.write("SPRING - SPRING\r\n");
+      out.write("FORM - FORMULARIOS SPRING\r\n");
+      out.write(" -->\r\n");
       out.write("\r\n");
       out.write("\r\n");
       out.write("\r\n");

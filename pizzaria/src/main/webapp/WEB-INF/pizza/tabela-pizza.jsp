@@ -1,3 +1,10 @@
+<!-- 
+BIBLIOTECAS
+C - JSTL (PRA AJUDAR A IMPLEMENTAR CÓDIGO JAVA  EM FORMA HTML)
+FMT - JSTL DE FORMATAÇÃO
+SPRING - SPRING
+FORM - FORMULARIOS SPRING
+ -->
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
@@ -29,7 +36,14 @@
 				</td>
 				
 				<td>${pizza.categoria}</td>
-				<td>${pizza.ingredientes}</td>
+				
+				<td>
+					<c:forEach items="${pizza.ingredientes}" var="ingrediente">
+						${ingrediente.nome}</br />
+					</c:forEach>	
+				</td>
+				
+				
 				<td><button type="button" class="btn btn-warning btn-editar">Editar</button></td>
 				<td><button type="button" class="btn-deletar btn btn-danger ">Deletar</button> </td>
 

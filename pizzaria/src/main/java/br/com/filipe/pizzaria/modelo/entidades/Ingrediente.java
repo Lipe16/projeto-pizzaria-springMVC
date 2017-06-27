@@ -17,14 +17,14 @@ public class Ingrediente {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 	@NotNull
 	@NotEmpty
 	private String nome;
 	
 	@NotNull
-	@Enumerated(EnumType.STRING)
+	@Enumerated(EnumType.STRING)//hibernate salve isso como string e não como integer que seria o padrão
 	private CategoriaDeIngredientes categoria;
 	
 	

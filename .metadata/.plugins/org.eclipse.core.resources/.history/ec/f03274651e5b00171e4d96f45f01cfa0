@@ -1,0 +1,7 @@
+package br.com.filipe.pizzaria.propertyeditors;
+
+import java.beans.PropertyEditorSupport;
+
+public class IngredientePropertyEditor extends PropertyEditorSupport{
+
+}

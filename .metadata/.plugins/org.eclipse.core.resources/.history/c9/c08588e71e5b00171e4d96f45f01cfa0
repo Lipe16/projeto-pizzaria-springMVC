@@ -1,0 +1,10 @@
+package br.com.filipe.pizzaria.propertyeditors;
+
+import java.beans.PropertyEditorSupport;
+
+import org.springframework.stereotype.Component;
+
+@Component // para o spring conhecelo
+public class IngredientePropertyEditor extends PropertyEditorSupport{
+
+}

@@ -1,0 +1,5 @@
+package br.com.filipe.pizzaria.propertyeditors.copy;
+
+public class IngredientePropertyEditor extends {
+
+}

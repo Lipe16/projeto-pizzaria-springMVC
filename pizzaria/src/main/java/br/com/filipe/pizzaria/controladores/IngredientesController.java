@@ -26,19 +26,26 @@ import br.com.filipe.pizzaria.modelo.repositorios.PizzaRepositorio;
 @RequestMapping("/ingredientes")
 public class IngredientesController {
 	
+	//as anotações @Autowired permitem que o Spring injete as dependências nesta classe
 	@Autowired private IngredienteRepositorio ingredienteRepositorio;
+	
+	
 	
 	
 	@RequestMapping(method=RequestMethod.GET)
 	public String listarIngredientes(Model model){
 		Iterable<Ingrediente> ingredientes = ingredienteRepositorio.findAll();
 		
+		// model passa objetos do controlador para a view
 		model.addAttribute("titulo", "Listagem de ingredientes");
 		model.addAttribute("ingredientes", ingredientes);
 		model.addAttribute("categorias", CategoriaDeIngredientes.values());
 		
 		return "ingrediente/listagem";
 	}
+	
+	
+	
 	
 	@RequestMapping(method=RequestMethod.POST)
 	public String salvarIngredientes(@Valid @ModelAttribute Ingrediente ingrediente, BindingResult bindingResult, Model model){
@@ -49,6 +56,7 @@ public class IngredientesController {
 		System.out.println("categoria: "+ingrediente.getCategoria());
 		
 		 Ingrediente auxIngrediente = new Ingrediente();
+		 /*
 		if(ingrediente.getId() == 0){
 				System.out.println("entrou na linha 53");
 			 auxIngrediente.setNome(ingrediente.getNome());
@@ -57,7 +65,9 @@ public class IngredientesController {
 		}else{
 			auxIngrediente = ingrediente;
 		}
-		
+		*/
+		 
+		auxIngrediente = ingrediente;
 		
 		if(bindingResult.hasErrors()){
 			
@@ -75,12 +85,15 @@ public class IngredientesController {
 			model.addAttribute("ingredientes", ingredientes);
 			model.addAttribute("categorias", CategoriaDeIngredientes.values());
 			
-			//redirectAtributes.addFlashAttribute("mensagemInfo", "O ingrediente foi salvo corretamente!");
-			
+		
 		}
 		
 		return "ingrediente/tabela-ingrediente";
 	}
+	
+	
+	
+	
 	
 	
 	@RequestMapping(method=RequestMethod.DELETE, value="/{id}")
@@ -94,8 +107,11 @@ public class IngredientesController {
 	}
 	
 	
+	
+	
+	
 	@RequestMapping(method=RequestMethod.GET, value="/{id}")
-	@ResponseBody
+	@ResponseBody // printa uma string
 	public Ingrediente buscarIngrediente(@PathVariable Long id){
 		
 			Ingrediente ingrediente = ingredienteRepositorio.findOne(id);

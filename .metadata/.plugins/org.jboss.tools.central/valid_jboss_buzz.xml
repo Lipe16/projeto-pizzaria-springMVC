@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+<title>JBoss Central</title>
+<generator uri="http://tt-rss.org/">Tiny Tiny RSS/1.9</generator>
+<updated>2017-05-14T17:23:15+00:00</updated>
+<id>http://tiny-man.rhcloud.com/public.php?op=rss&amp;id=1&amp;key=b0143615132bd9efc4e83ba42a5574f6ab939b28</id>
+
+
+<link href="http://tiny-man.rhcloud.com" rel="alternate" />
+
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
+	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/06/16/this-week-in-jboss-16th-june-2017-the-power-of-asynchronicity</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/v1_4TwriILM/this-week-in-jboss-16th-june-2017-the-power-of-asynchronicity" rel="alternate" type="text/html" />
+	<title>This week in JBoss (16th June 2017): The Power of Asynchronicity</title>
+	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:5cf6f73b-f21a-485b-be28-16eb447105c8] --><div class="jive-rendered-content"><p>Welcome to this week's edition of the JBoss Weekly Editorial, our regular spin through the JBoss Communities in search of interesting articles and developments</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Red Hat Summit Interview with Clement Escoffier</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><iframe allowfullscreen="allowfullscreen" frameborder="0" height="330" scrolling="no" src="https://www.youtube.com/embed/-Cj5EhDZ0fg" title="Red Hat Developers - Clement Escoffier - YouTube" width="440">
+</iframe></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>In this week's developer interview Jason Porter interviews Clement Escoffier, a Principal Software Engineer with Red Hat who works as a core developer on the Vert.x project.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Introducing Asynchronous Programming with Eclipse Vert.x</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>If you have an interest in asynchronous programming using Vert.x then you may be interested in a new guide developed by the Vert.x community.&#160; The guide is called &ldquo;<a class="jive-link-external-small" href="http://vertx.io/blog/preview-of-a-guide-for-java-developers/" rel="nofollow">A gentle guide to asynchronous programming with Eclipse Vert.x for enterprise application developers</a>&#8221; and demonstrates how to take an application from a "quick and dirty" implementation through to a refactored Vert.x solution and finally to a reactive solution using the RxJava library.&#160; Don't forget to leave feedback or submit PRs for updates you would like to see.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Mobile Application Development</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>This week sees a number of articles describing various aspects of mobile application development using Red Hat Mobile Application Platform.&#160; In the first article Evan describes how <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/06/14/local-development-setup-for-red-hat-mobile-using-docker/" rel="nofollow">docker can be used to simplify the deployment of MongoDB and Redis</a>, two of the platform dependencies, to support the setup of a local development environment.&#160; In the next article David Martin demonstrates <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/06/13/working-with-peer-scoped-and-private-npm-dependencies-in-rhmap/" rel="nofollow">how to use peer, scoped and private npm dependencies using the Dynofarm mobile backend</a> while in the final article David French demonstrates <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/06/12/debugging-rhmap-apps-locally-with-visual-studio-code-vs-code/" rel="nofollow">how to debug mobile applications with Visual Studio Code</a>.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Transactional Sagas</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>With the continuing importance of long running transactions, especially within the context of distributed applications such as those following the microservices paradigm, it is important for application developers to understand how these transactions are implemented and what changes will be necessary for applications to successfully support this behaviour.&#160; If this is something you are considering then the Narayana team have written a post describing how <a class="jive-link-external-small" href="http://jbossts.blogspot.co.uk/2017/06/sagas-and-how-they-differ-from-two.html" rel="nofollow">Sagas differ from the traditional two-phase commit protocol, which transactional property is relaxed and the ways in which transactional failures can be handled</a>.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Instrumenting Java Frameworks using OpenTracing</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>In the first article of a series looking at instrumenting various Java Framework, Pavol demonstrates how easy it is to instrument <a class="jive-link-external-small" href="http://www.hawkular.org/blog/2017/06/9/opentracing-spring-boot.html" rel="nofollow">a simple Sprint Boot application using OpenTracing with minimal changes to the application code</a>.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Developing your First Business Rules Application on OpenShift</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>In previous articles Duncan has demonstrated how to deploy an existing Business Rules application into the OpenShift environment but he has not yet shown how these application are developed, until now that is.&#160; Using a simple application Duncan takes us through <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/06/13/your-first-business-rules-application-on-openshift-from-zero-to-hero-in-30-minutes/" rel="nofollow">the process of building a rules project, creating the associated data model, developing the rules and finally enabling the project for building using the OpenShift S2I process</a>.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>EJB Clients for EAP 7.1</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The EAP 7.1 release will introduce some <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/06/14/coding-ejb-clients-for-jboss-eap-7-1/" rel="nofollow">new features available to applications making use of remote EJB communication</a> including a simpler method for discovering remote EJBs and new annotations for controlling transaction propagation and enabling client side interceptors.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Installing OpenShift Container Platform in Minutes</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>Yes you read that correctly, it is possible to deploy OpenShift Container Platform in minutes!&#160; Eric has given numerous presentations on this topic to various groups and conferences and <a class="jive-link-external-small" href="http://www.schabell.org/2017/06/howto-install-openshift-container-platform-in-minutes-video.html" rel="nofollow">has now made a video available so everyone can learn just how this can be achieved</a>.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>JBoss Out and About</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>This week saw <a class="jive-link-external-small" href="http://blog.infinispan.org/2017/06/infinispan-coming-to-berlin-buzzwords.html" rel="nofollow">Galder attend Berlin Buzzwords 2017</a> where he gave a presentation entitled <a class="jive-link-external-small" href="https://berlinbuzzwords.de/17/session/big-data-action-infinispan" rel="nofollow">Big Data in Action with Infinispan</a>.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>New Releases</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><ul><li>The <a class="jive-link-external-small" href="http://teiid.org/" rel="nofollow">Teiid</a> team released <a class="jive-link-external-small" href="http://teiid.blogspot.co.uk/2017/06/teiid-915-released.html" rel="nofollow">Teiid 9.1.5</a> and <a class="jive-link-external-small" href="http://teiid.blogspot.co.uk/2017/06/teiid-924-released.html" rel="nofollow">Teiid 9.2.4</a>.</li><li>The <a class="jive-link-external-small" href="http://arquillian.org/" rel="nofollow">Arquillian</a> team released <a class="jive-link-external-small" href="http://arquillian.org/blog/2017/06/09/arquillian-cube-1-5-1/" rel="nofollow">Arquillian Cube Extension 1.5.1</a>.</li><li>The <a class="jive-link-external-small" href="http://hibernate.org/" rel="nofollow">Hibernate</a> team released <a class="jive-link-external-small" href="http://in.relation.to/2017/06/13/hibernate-search-5-8-0-Beta3/" rel="nofollow">Hibernate Search 5.8.0.Beta3</a>.</li></ul><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>That's all for this week, I hope you have managed to find something of interest in these articles and I invite you to return next week when we will bring more news and interviews from those working within the JBoss Communities.</p></div><!-- [DocumentBodyEnd:5cf6f73b-f21a-485b-be28-16eb447105c8] -->]]></summary>
+	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:5cf6f73b-f21a-485b-be28-16eb447105c8] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;Welcome to this week's edition of the JBoss Weekly Editorial, our regular spin through the JBoss Communities in search of interesting articles and developments&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Red Hat Summit Interview with Clement Escoffier&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In this week's developer interview Jason Porter interviews Clement Escoffier, a Principal Software Engineer with Red Hat who works as a core developer on the Vert.x project.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Introducing Asynchronous Programming with Eclipse Vert.x&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;If you have an interest in asynchronous programming using Vert.x then you may be interested in a new guide developed by the Vert.x community.&amp;nbsp; The guide is called &amp;ldquo;&lt;a href="http://vertx.io/blog/preview-of-a-guide-for-java-developers/" rel="nofollow" target="_blank"&gt;A gentle guide to asynchronous programming with Eclipse Vert.x for enterprise application developers&lt;/a&gt;&amp;rdquo; and demonstrates how to take an application from a "quick and dirty" implementation through to a refactored Vert.x solution and finally to a reactive solution using the RxJava library.&amp;nbsp; Don't forget to leave feedback or submit PRs for updates you would like to see.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Mobile Application Development&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;This week sees a number of articles describing various aspects of mobile application development using Red Hat Mobile Application Platform.&amp;nbsp; In the first article Evan describes how &lt;a href="https://developers.redhat.com/blog/2017/06/14/local-development-setup-for-red-hat-mobile-using-docker/" rel="nofollow" target="_blank"&gt;docker can be used to simplify the deployment of MongoDB and Redis&lt;/a&gt;, two of the platform dependencies, to support the setup of a local development environment.&amp;nbsp; In the next article David Martin demonstrates &lt;a href="https://developers.redhat.com/blog/2017/06/13/working-with-peer-scoped-and-private-npm-dependencies-in-rhmap/" rel="nofollow" target="_blank"&gt;how to use peer, scoped and private npm dependencies using the Dynofarm mobile backend&lt;/a&gt; while in the final article David French demonstrates &lt;a href="https://developers.redhat.com/blog/2017/06/12/debugging-rhmap-apps-locally-with-visual-studio-code-vs-code/" rel="nofollow" target="_blank"&gt;how to debug mobile applications with Visual Studio Code&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Transactional Sagas&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;With the continuing importance of long running transactions, especially within the context of distributed applications such as those following the microservices paradigm, it is important for application developers to understand how these transactions are implemented and what changes will be necessary for applications to successfully support this behaviour.&amp;nbsp; If this is something you are considering then the Narayana team have written a post describing how &lt;a href="http://jbossts.blogspot.co.uk/2017/06/sagas-and-how-they-differ-from-two.html" rel="nofollow" target="_blank"&gt;Sagas differ from the traditional two-phase commit protocol, which transactional property is relaxed and the ways in which transactional failures can be handled&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Instrumenting Java Frameworks using OpenTracing&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In the first article of a series looking at instrumenting various Java Framework, Pavol demonstrates how easy it is to instrument &lt;a href="http://www.hawkular.org/blog/2017/06/9/opentracing-spring-boot.html" rel="nofollow" target="_blank"&gt;a simple Sprint Boot application using OpenTracing with minimal changes to the application code&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Developing your First Business Rules Application on OpenShift&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In previous articles Duncan has demonstrated how to deploy an existing Business Rules application into the OpenShift environment but he has not yet shown how these application are developed, until now that is.&amp;nbsp; Using a simple application Duncan takes us through &lt;a href="https://developers.redhat.com/blog/2017/06/13/your-first-business-rules-application-on-openshift-from-zero-to-hero-in-30-minutes/" rel="nofollow" target="_blank"&gt;the process of building a rules project, creating the associated data model, developing the rules and finally enabling the project for building using the OpenShift S2I process&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;EJB Clients for EAP 7.1&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The EAP 7.1 release will introduce some &lt;a href="https://developers.redhat.com/blog/2017/06/14/coding-ejb-clients-for-jboss-eap-7-1/" rel="nofollow" target="_blank"&gt;new features available to applications making use of remote EJB communication&lt;/a&gt; including a simpler method for discovering remote EJBs and new annotations for controlling transaction propagation and enabling client side interceptors.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Installing OpenShift Container Platform in Minutes&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Yes you read that correctly, it is possible to deploy OpenShift Container Platform in minutes!&amp;nbsp; Eric has given numerous presentations on this topic to various groups and conferences and &lt;a href="http://www.schabell.org/2017/06/howto-install-openshift-container-platform-in-minutes-video.html" rel="nofollow" target="_blank"&gt;has now made a video available so everyone can learn just how this can be achieved&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;JBoss Out and About&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;This week saw &lt;a href="http://blog.infinispan.org/2017/06/infinispan-coming-to-berlin-buzzwords.html" rel="nofollow" target="_blank"&gt;Galder attend Berlin Buzzwords 2017&lt;/a&gt; where he gave a presentation entitled &lt;a href="https://berlinbuzzwords.de/17/session/big-data-action-infinispan" rel="nofollow" target="_blank"&gt;Big Data in Action with Infinispan&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;New Releases&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The &lt;a href="http://teiid.org/" rel="nofollow" target="_blank"&gt;Teiid&lt;/a&gt; team released &lt;a href="http://teiid.blogspot.co.uk/2017/06/teiid-915-released.html" rel="nofollow" target="_blank"&gt;Teiid 9.1.5&lt;/a&gt; and &lt;a href="http://teiid.blogspot.co.uk/2017/06/teiid-924-released.html" rel="nofollow" target="_blank"&gt;Teiid 9.2.4&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;The &lt;a href="http://arquillian.org/" rel="nofollow" target="_blank"&gt;Arquillian&lt;/a&gt; team released &lt;a href="http://arquillian.org/blog/2017/06/09/arquillian-cube-1-5-1/" rel="nofollow" target="_blank"&gt;Arquillian Cube Extension 1.5.1&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;The &lt;a href="http://hibernate.org/" rel="nofollow" target="_blank"&gt;Hibernate&lt;/a&gt; team released &lt;a href="http://in.relation.to/2017/06/13/hibernate-search-5-8-0-Beta3/" rel="nofollow" target="_blank"&gt;Hibernate Search 5.8.0.Beta3&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;That's all for this week, I hope you have managed to find something of interest in these articles and I invite you to return next week when we will bring more news and interviews from those working within the JBoss Communities.&lt;/p&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:5cf6f73b-f21a-485b-be28-16eb447105c8] --&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/v1_4TwriILM" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-06-16T09:13:38+00:00</updated>
+	<author><name>Kevin Conner</name></author>
+	<source>
+		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
+		<title>Weekly Editorial</title></source>
+
+	<category term="hibernate" />
+
+	<category term="teiid" />
+
+	<category term="arquillian" />
+
+	<category term="openshift" />
+
+	<category term="weekly_update" />
+
+	<category term="news" />
+
+	<category term="mobile" />
+
+	<category term="weekly_editorial" />
+
+	<category term="narayana" />
+
+	<category term="vert.x" />
+
+	<category term="eap 7" />
+
+	<category term="business rules" />
+
+	<category term="rhmap" />
+
+	<category term="opentracing" />
+
+
+<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/06/16/this-week-in-jboss-16th-june-2017-the-power-of-asynchronicity</feedburner:origLink></entry>
+
+<entry>
+	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/06/08/this-week-in-jboss-june-8th-teiid-10x-and-beyond</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/RHmrhx9TTsM/this-week-in-jboss-june-8th-teiid-10x-and-beyond" rel="alternate" type="text/html" />
+	<title>This week in JBoss (June 8th): Teiid 10.x and beyond</title>
+	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:7d81c6f0-277e-487f-bd55-d5d1ec3733a0] --><div class="jive-rendered-content"><p><em>Welcome to this week's editorial! As always, you'll find the JBoss community has been quite active in the last days and produced many releases and interesting content for you. But especially, I would like to point out the latest release of Teiid (9.3), which brings many bug fixes and features enhancements but more importantly come with a small announcement regarding the future of Teiid, and the upcoming changes. While the developers have obviously plans for the future of the project, they are also welcoming request and suggestions - so if you ever wanted to see Teiid evolve in a certain way, it's time to speak up!</em></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Tech bytes</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>Christina Lin's post, last week, on <a class="jive-link-external-small" href="http://wei-meilin.blogspot.de/2017/06/the-raise-of-agile-integration.html" rel="nofollow">The rise of Agile Integration - Integration is not DEAD nor LAME!</a> really caught my eye. She makes, of course, a lot of sense, and I found this entry to be a refreshing read - amidst the current flow of "microservices this" and "microservices that", that often forget that microservices, like Docker, will not "fix everything". Still on the topic of microservice, the third of <a class="jive-link-external-small" href="http://blog.christianposta.com/microservices/03-microservices-patterns-with-envoy-proxy-part-iii-distributed-tracing/" rel="nofollow">Microservices Patterns With Envoy Proxy, Part III: Distributed Tracing</a> was just released and is again an excellent read.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>If you microservice is not your cup of your tea or just if you are interested in security, the following article will be also a nice read: Under The Elytron: Update of Credential Store alias operations.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>On the shelf</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>In this digital age, people, especially working in our industry, can be surprised that books are still published. Even more especially on technological topics, as the matter at hand tends to evolve very quickly. I'm not one of those people. I personally think that book are still the best tool to understand, deeply and with a complete overview, a topic or a technology. The internet brings thousands of blogs, that are priceless when it comes to finding tidbits or getting how to, but rare are the information or documentation online, complete enough (or well designed enough) to allow one to really understands a complex topic.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>All of that to introduce this <a class="jive-link-external-small" href="http://www.jakubkorab.net/2017/06/new-book-understanding-message-brokers.html" rel="nofollow">New Book &#8211; Understanding Message Brokers</a> from Jakub Korab. If you are an ActiveMQ user, or just interested in the topic of messaging, I can but only recommend you check out the book!</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Evangelist's Corner</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The numerous evangelists around the JBoss community are always on the job, but none is as productive as Eric D. Schabell who released, in the last days <a class="jive-link-external-small" href="http://www.schabell.org/2017/06/appdev-cloud-self-paced-free-online-workshop.html" rel="nofollow">AppDev in the Cloud self-paced, free, online workshop</a>, along with a sum up of an <a class="jive-link-external-small" href="http://www.schabell.org/2017/06/boston-jug-evening-of-appdev-cloud-workshop.html" rel="nofollow">Evening of AppDev in the Cloud Workshop</a>.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Releases, releases, releases...</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>Only three releases in the last week, but at least two major ones! First, <a class="jive-link-external-small" href="http://teiid.blogspot.de/2017/06/teiid-93-final-released.html" rel="nofollow">Teiid 9.3 Final</a> was released as mentioned above, but also <a class="jive-link-external-small" href="http://wildfly-swarm.io/posts/announcing-wildfly-swarm-2017-6-0/" rel="nofollow"> WildFly Swarm 2017.6.0</a><span style="color: #3d3d3d;"> - and both releases are an excellent opportunity to try out those two products if you never have. Last but not least, </span><span style="color: #3d3d3d;"><a class="jive-link-external-small" href="http://arquillian.org/blog/2017/06/02/arquillian-spacelift-1-0-2/" rel="nofollow">Arquillian Spacelift 1.0.2</a> </span><span style="color: #3d3d3d;">was also released.</span></p><p style="min-height: 8pt; padding: 0px; font-weight: inherit; font-style: inherit; font-family: inherit;">&#160;</p><h2>Decaf'</h2><h2 style="font-weight: inherit; font-style: inherit; font-family: inherit;"></h2><p style="font-weight: inherit; font-style: inherit; font-family: inherit;">As always, here some interesting news, coming for outside the Java community but still very relevant to us: <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/06/07/red-hat-and-apache-openwhisk/" rel="nofollow">Red Hat and Apache OpenWhisk</a>. Also, if you have interest, like me, in Ansible, you might want to share this article on a <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/06/07/new-level-of-automation-with-ansible/" rel="nofollow">New level of automation with Ansible</a> around you, as it is a nice introduction to the topic.</p><p style="min-height: 8pt; padding: 0px; font-weight: inherit; font-style: inherit; font-family: inherit;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: inherit;"><span style="font-weight: inherit; font-family: inherit;"><em>Hopefully, you have found something in this week's editorial to pique your interest and give you something to explore while waiting for next week's installment. Join us here next week for more news from the JBoss Community.</em></span></p></div><!-- [DocumentBodyEnd:7d81c6f0-277e-487f-bd55-d5d1ec3733a0] -->]]></summary>
+	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:7d81c6f0-277e-487f-bd55-d5d1ec3733a0] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;&lt;em&gt;Welcome to this week's editorial! As always, you'll find the JBoss community has been quite active in the last days and produced many releases and interesting content for you. But especially, I would like to point out the latest release of Teiid (9.3), which brings many bug fixes and features enhancements but more importantly come with a small announcement regarding the future of Teiid, and the upcoming changes. While the developers have obviously plans for the future of the project, they are also welcoming request and suggestions - so if you ever wanted to see Teiid evolve in a certain way, it's time to speak up!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Tech bytes&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Christina Lin's post, last week, on &lt;a href="http://wei-meilin.blogspot.de/2017/06/the-raise-of-agile-integration.html" rel="nofollow" target="_blank"&gt;The rise of Agile Integration - Integration is not DEAD nor LAME!&lt;/a&gt; really caught my eye. She makes, of course, a lot of sense, and I found this entry to be a refreshing read - amidst the current flow of "microservices this" and "microservices that", that often forget that microservices, like Docker, will not "fix everything". Still on the topic of microservice, the third of &lt;a href="http://blog.christianposta.com/microservices/03-microservices-patterns-with-envoy-proxy-part-iii-distributed-tracing/" rel="nofollow" target="_blank"&gt;Microservices Patterns With Envoy Proxy, Part III: Distributed Tracing&lt;/a&gt; was just released and is again an excellent read.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;If you microservice is not your cup of your tea or just if you are interested in security, the following article will be also a nice read: Under The Elytron: Update of Credential Store alias operations.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;On the shelf&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In this digital age, people, especially working in our industry, can be surprised that books are still published. Even more especially on technological topics, as the matter at hand tends to evolve very quickly. I'm not one of those people. I personally think that book are still the best tool to understand, deeply and with a complete overview, a topic or a technology. The internet brings thousands of blogs, that are priceless when it comes to finding tidbits or getting how to, but rare are the information or documentation online, complete enough (or well designed enough) to allow one to really understands a complex topic.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;All of that to introduce this &lt;a href="http://www.jakubkorab.net/2017/06/new-book-understanding-message-brokers.html" rel="nofollow" target="_blank"&gt;New Book &amp;ndash; Understanding Message Brokers&lt;/a&gt; from Jakub Korab. If you are an ActiveMQ user, or just interested in the topic of messaging, I can but only recommend you check out the book!&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Evangelist's Corner&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The numerous evangelists around the JBoss community are always on the job, but none is as productive as Eric D. Schabell who released, in the last days &lt;a href="http://www.schabell.org/2017/06/appdev-cloud-self-paced-free-online-workshop.html" rel="nofollow" target="_blank"&gt;AppDev in the Cloud self-paced, free, online workshop&lt;/a&gt;, along with a sum up of an &lt;a href="http://www.schabell.org/2017/06/boston-jug-evening-of-appdev-cloud-workshop.html" rel="nofollow" target="_blank"&gt;Evening of AppDev in the Cloud Workshop&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Releases, releases, releases...&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Only three releases in the last week, but at least two major ones! First, &lt;a href="http://teiid.blogspot.de/2017/06/teiid-93-final-released.html" rel="nofollow" target="_blank"&gt;Teiid 9.3 Final&lt;/a&gt; was released as mentioned above, but also &lt;a href="http://wildfly-swarm.io/posts/announcing-wildfly-swarm-2017-6-0/" rel="nofollow" target="_blank"&gt; WildFly Swarm 2017.6.0&lt;/a&gt;&lt;span&gt; - and both releases are an excellent opportunity to try out those two products if you never have. Last but not least, &lt;/span&gt;&lt;span&gt;&lt;a href="http://arquillian.org/blog/2017/06/02/arquillian-spacelift-1-0-2/" rel="nofollow" target="_blank"&gt;Arquillian Spacelift 1.0.2&lt;/a&gt; &lt;/span&gt;&lt;span&gt;was also released.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Decaf'&lt;/h2&gt;&lt;h2&gt;&lt;/h2&gt;&lt;p&gt;As always, here some interesting news, coming for outside the Java community but still very relevant to us: &lt;a href="https://developers.redhat.com/blog/2017/06/07/red-hat-and-apache-openwhisk/" rel="nofollow" target="_blank"&gt;Red Hat and Apache OpenWhisk&lt;/a&gt;. Also, if you have interest, like me, in Ansible, you might want to share this article on a &lt;a href="https://developers.redhat.com/blog/2017/06/07/new-level-of-automation-with-ansible/" rel="nofollow" target="_blank"&gt;New level of automation with Ansible&lt;/a&gt; around you, as it is a nice introduction to the topic.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Hopefully, you have found something in this week's editorial to pique your interest and give you something to explore while waiting for next week's installment. Join us here next week for more news from the JBoss Community.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:7d81c6f0-277e-487f-bd55-d5d1ec3733a0] --&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/RHmrhx9TTsM" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-06-08T17:08:40+00:00</updated>
+	<author><name>Romain Pelisse</name></author>
+	<source>
+		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
+		<title>Weekly Editorial</title></source>
+
+	<category term="apache" />
+
+	<category term="teiid" />
+
+	<category term="agile" />
+
+	<category term="activemq" />
+
+	<category term="elytron" />
+
+	<category term="microservices" />
+
+	<category term="wildfly-swarm" />
+
+	<category term="arquillian-extension" />
+
+	<category term="ansible" />
+
+
+<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/06/08/this-week-in-jboss-june-8th-teiid-10x-and-beyond</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/2017-05-31-devstudio-survey.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/PYhSZ3W08ts/2017-05-31-devstudio-survey.html" rel="alternate" type="text/html" />
+	<title>Are you a Developer User Experience lead ?</title>
+	<summary type="html"><![CDATA[
+      <div><div class="paragraph">
+      <p>Are you a user of JBoss Tools or Red Hat JBoss Developer Studio? If so, the documentation team would love to hear from you!</p>
+      </div>
+      <div class="paragraph">
+      <p>We’ve created a very brief survey that should only take a few minutes of your time. This survey is about the documentation for JBoss Developer Studio and asks users about what sort of things are useful and effective in the documentation as well as what we could be doing better.</p>
+      </div>
+      <div class="paragraph">
+      <p>If you have a few minutes to spare, we would appreciate your thoughts. All results are completely anonymous (unless you choose to leave your details to be contacted for further feedback in the future). Click the following link for the survey:</p>
+      </div>
+      <div class="paragraph">
+      <p><a href="https://goo.gl/forms/ng0kH0CxKVwJo0xw2">Click here for survey link</a></p>
+      </div>
+      <div class="paragraph">
+      <p>For any other thoughts, feel free to contact us at <a href="mailto:devtools-docs@redhat.com">devtools-docs@redhat.com</a> and we’ll be happy to hear any feedback you may have.</p>
+      </div>
+      <div class="paragraph">
+      <p>Thank you all for your time!<br />
+      The Developer Tools Documentation Team</p>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;p&gt;Are you a user of JBoss Tools or Red Hat JBoss Developer Studio? If so, the documentation team would love to hear from you!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We&amp;rsquo;ve created a very brief survey that should only take a few minutes of your time. This survey is about the documentation for JBoss Developer Studio and asks users about what sort of things are useful and effective in the documentation as well as what we could be doing better.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If you have a few minutes to spare, we would appreciate your thoughts. All results are completely anonymous (unless you choose to leave your details to be contacted for further feedback in the future). Click the following link for the survey:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;a href="https://goo.gl/forms/ng0kH0CxKVwJo0xw2" target="_blank"&gt;Click here for survey link&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For any other thoughts, feel free to contact us at &lt;a href="mailto:devtools-docs@redhat.com" target="_blank"&gt;devtools-docs@redhat.com&lt;/a&gt; and we&amp;rsquo;ll be happy to hear any feedback you may have.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Thank you all for your time!&lt;br&gt;
+      The Developer Tools Documentation Team&lt;/p&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/PYhSZ3W08ts" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-06-07T11:08:05+00:00</updated>
+	<author><name>mhusnain</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="devstudio" />
+
+	<category term="survey" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/2017-05-31-devstudio-survey.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/06/01/the-week-in-jboss-june-1st-2017</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/VoRIMsQFsrs/the-week-in-jboss-june-1st-2017" rel="alternate" type="text/html" />
+	<title>The Week in JBoss (June 1st, 2017)</title>
+	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:171342e3-7597-44c4-9cb9-94984994a9a7] --><div class="jive-rendered-content"><p>This week we have the usual collection of blog posts and releases from the JBoss Community. We also continue the developer interview series, with an interesting chat with Sanne Grinovero from the Hibernate project.</p><h2></h2><h2>Red Hat Summit Interview with Sanne Grinovero</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><iframe allowfullscreen="allowfullscreen" frameborder="0" height="330" scrolling="no" src="https://www.youtube.com/embed/wUjAFXIZta0" title="Red Hat Developers - Sanne Grinovero - YouTube" width="440">
+</iframe></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>Next in our series of developer interviews, Jason Porter interviews Sanne Grinovero. Sanne is an Engineer working primarily on the Hibernate project. In particular he focuses on Hibernate Search, but also works on integrations with other technologies such as Infinispan.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Blog Posts</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><ul><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/how_to_take_new_improved_mortgage_finance_process_in_to_the_clouds" rel="nofollow">How To Take New Improved Mortgage Finance Process in to the Clouds</a>. In this post Eric Schabell steps through the process of running a demo application on OpenShift Container Platform v3.5.</li><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/hawkular_and_grafana_out_of_the_box" rel="nofollow">Hawkular and Grafana Out of the Box</a>. Here Joel Takvorian introduces "Hawkular and Grafana Out of the Box", which is a new way to quickly setup Hawkular and Grafana together with very little work.</li><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/microservices_patterns_with_envoy_proxy_part_ii_timeouts_and_retries" rel="nofollow">Microservices Patterns With Envoy Proxy, Part II: Timeouts and Retries</a>. This blog, by Christian Posta, is <a class="jive-link-external-small" href="http://blog.christianposta.com/microservices/00-microservices-patterns-with-envoy-proxy-series/" rel="nofollow">part of a series</a> looking deeper at <a class="jive-link-external-small" href="https://lyft.github.io/envoy/" rel="nofollow">Envoy Proxy</a> and <a class="jive-link-external-small" href="https://www.theregister.co.uk/2017/05/24/google_lyft_ibm_mix_microservices_into_management_mesh/" rel="nofollow">Istio.io</a> and how it enables a more elegant way to connect and manage Microservices.</li><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/going_headless_without_headache" rel="nofollow">Going Headless without headache</a>.&#160; In this post Corinne Krych describes how to test your AngularJS application in headless environments. Ideal for adding to your CI/CD pipeline!</li><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/new_kie_persistence_api_on_7_0" rel="nofollow">New KIE persistence API on 7.0</a>. Marian Buenosayre introduces the upcoming drools and jBPM persistence API.</li><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/creating_patch_files_for_wildfly" rel="nofollow">Creating Patch Files for WildFly.</a> Here Gunnar Morling demonstrates how WildFly's patching mechanism can be used to upgrade existing modules and to add your own custom libraries to the application server.<a class="jive-link-external-small" href="http://planet.jboss.org/post/creating_patch_files_for_wildfly" rel="nofollow"><br/></a></li><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/hibernate_community_newsletter_11_2017" rel="nofollow">Hibernate Community Newsletter 11/2017</a>.&#160; Read this post, by Vlad Mihalcea, to find out what's been happening in the Hibernate Community.</li></ul><p style="min-height: 8pt; padding: 0px;">&#160;</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>This Week's Releases</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><ul><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/infinispan_9_1_0_alpha1_released" rel="nofollow">Infinispan 9.1.0.Alpha1</a></li><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/immutant_2_1_8_release" rel="nofollow">Immutant 2.1.8</a></li><li><a class="jive-link-external-small" href="http://planet.jboss.org/post/hotrod_clients_c_c_8_1_1_final_released" rel="nofollow">Infinispan Hotrod clients C++/C# 8.1.1.Final</a></li></ul></div><!-- [DocumentBodyEnd:171342e3-7597-44c4-9cb9-94984994a9a7] -->]]></summary>
+	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:171342e3-7597-44c4-9cb9-94984994a9a7] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;This week we have the usual collection of blog posts and releases from the JBoss Community. We also continue the developer interview series, with an interesting chat with Sanne Grinovero from the Hibernate project.&lt;/p&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h2&gt;Red Hat Summit Interview with Sanne Grinovero&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Next in our series of developer interviews, Jason Porter interviews Sanne Grinovero. Sanne is an Engineer working primarily on the Hibernate project. In particular he focuses on Hibernate Search, but also works on integrations with other technologies such as Infinispan.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Blog Posts&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/how_to_take_new_improved_mortgage_finance_process_in_to_the_clouds" rel="nofollow" target="_blank"&gt;How To Take New Improved Mortgage Finance Process in to the Clouds&lt;/a&gt;. In this post Eric Schabell steps through the process of running a demo application on OpenShift Container Platform v3.5.&lt;/li&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/hawkular_and_grafana_out_of_the_box" rel="nofollow" target="_blank"&gt;Hawkular and Grafana Out of the Box&lt;/a&gt;. Here Joel Takvorian introduces "Hawkular and Grafana Out of the Box", which is a new way to quickly setup Hawkular and Grafana together with very little work.&lt;/li&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/microservices_patterns_with_envoy_proxy_part_ii_timeouts_and_retries" rel="nofollow" target="_blank"&gt;Microservices Patterns With Envoy Proxy, Part II: Timeouts and Retries&lt;/a&gt;. This blog, by Christian Posta, is &lt;a href="http://blog.christianposta.com/microservices/00-microservices-patterns-with-envoy-proxy-series/" rel="nofollow" target="_blank"&gt;part of a series&lt;/a&gt; looking deeper at &lt;a href="https://lyft.github.io/envoy/" rel="nofollow" target="_blank"&gt;Envoy Proxy&lt;/a&gt; and &lt;a href="https://www.theregister.co.uk/2017/05/24/google_lyft_ibm_mix_microservices_into_management_mesh/" rel="nofollow" target="_blank"&gt;Istio.io&lt;/a&gt; and how it enables a more elegant way to connect and manage Microservices.&lt;/li&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/going_headless_without_headache" rel="nofollow" target="_blank"&gt;Going Headless without headache&lt;/a&gt;.&amp;nbsp; In this post Corinne Krych describes how to test your AngularJS application in headless environments. Ideal for adding to your CI/CD pipeline!&lt;/li&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/new_kie_persistence_api_on_7_0" rel="nofollow" target="_blank"&gt;New KIE persistence API on 7.0&lt;/a&gt;. Marian Buenosayre introduces the upcoming drools and jBPM persistence API.&lt;/li&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/creating_patch_files_for_wildfly" rel="nofollow" target="_blank"&gt;Creating Patch Files for WildFly.&lt;/a&gt; Here Gunnar Morling demonstrates how WildFly's patching mechanism can be used to upgrade existing modules and to add your own custom libraries to the application server.&lt;a href="http://planet.jboss.org/post/creating_patch_files_for_wildfly" rel="nofollow" target="_blank"&gt;&lt;br&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/hibernate_community_newsletter_11_2017" rel="nofollow" target="_blank"&gt;Hibernate Community Newsletter 11/2017&lt;/a&gt;.&amp;nbsp; Read this post, by Vlad Mihalcea, to find out what's been happening in the Hibernate Community.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;This Week's Releases&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/infinispan_9_1_0_alpha1_released" rel="nofollow" target="_blank"&gt;Infinispan 9.1.0.Alpha1&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/immutant_2_1_8_release" rel="nofollow" target="_blank"&gt;Immutant 2.1.8&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://planet.jboss.org/post/hotrod_clients_c_c_8_1_1_final_released" rel="nofollow" target="_blank"&gt;Infinispan Hotrod clients C++/C# 8.1.1.Final&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:171342e3-7597-44c4-9cb9-94984994a9a7] --&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/VoRIMsQFsrs" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-06-01T09:51:34+00:00</updated>
+	<author><name>Paul Robinson</name></author>
+	<source>
+		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
+		<title>Weekly Editorial</title></source>
+
+	<category term="hibernate" />
+
+	<category term="hibernate_search" />
+
+	<category term="openshift" />
+
+	<category term="immutant" />
+
+	<category term="weekly_editorial" />
+
+	<category term="wildfly" />
+
+	<category term="infinisan" />
+
+	<category term="hawkular" />
+
+
+<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/06/01/the-week-in-jboss-june-1st-2017</feedburner:origLink></entry>
+
+<entry>
+	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/05/28/this-week-in-jboss-25th-may-2017-development-wizadry</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/_UO3MvE1CyI/this-week-in-jboss-25th-may-2017-development-wizadry" rel="alternate" type="text/html" />
+	<title>This week in JBoss (25th May 2017): Development Wizadry</title>
+	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:37282a7c-ed98-448d-8652-4f55f6ff61e2] --><div class="jive-rendered-content"><p>I was pleased to see that <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/05/25/why-redhat-is-acquiring-codenvy/" rel="nofollow">Red Hat has acquired Codenvy to expand their cloud-native app dev portfolio</a>.&#160; Back in 2014 Codenvy started Eclipse Che by exporting and open sourcing their cloud kernel.&#160; <a class="jive-link-external-small" href="https://www.eclipse.org/che/technology/" rel="nofollow">As it says on the site</a>, Eclipse Che, Development Witchcraft, is the IDE and developer workspace server that allows contributing to a project without having to install software.&#160; I am looking forward to working more with the project and seeing the contributions from Red Hat and the community with the container-based worskspace approach.</p><p style="min-height: 8pt; padding: 0px; font-weight: inherit; font-style: inherit; font-family: inherit;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: inherit;"><span style="font-weight: inherit; font-size: 18.6667px; font-family: inherit; font-style: inherit;"><strong>Now on to the happenings in our open source community!</strong></span></p><p style="min-height: 8pt; padding: 0px; font-family: inherit; font-style: inherit; font-weight: inherit;">&#160;</p><p><span style="color: #000000; font-weight: inherit; font-size: 18pt; font-family: inherit; font-style: inherit;"><strong>The Past Weeks Highlights</strong></span></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><ul><li><span style="font-family: Cabin; font-size: 12pt;">Christian Posta provided a couple of articles this week:</span><ul><li><span style="font-family: Cabin; font-size: 12pt;">He described his blog series on <a class="jive-link-external-small" href="https://planet.jboss.org/post/microservices_patterns_with_envoy_sidecar_proxy_the_series" rel="nofollow">Microservices Patterns with Envoy Sidecar Proxy.</a></span></li><li><span style="font-family: Cabin; font-size: 12pt;">His article <a class="jive-link-external-small" href="https://planet.jboss.org/post/microservices_patterns_with_envoy_sidecar_proxy_part_i_circuit_breaking" rel="nofollow">Microservices Patterns with Envoy Sidecare Proxy, Part 1: Circuit Breaking</a> introduces readers to Envoy Proxy's implementation of circuit-breaking functionality. He includes demos with the articles.</span></li></ul></li><li><span style="font-family: Cabin; font-size: 12pt;">Eric Schabell discusses his sessions at the <a class="jive-link-external-small" href="https://planet.jboss.org/post/tips_for_attending_the_red_hat_partner_conference_emea" rel="nofollow">Red Hat Partner Conference EMEA</a> taking place in Frankfurt, Germany from June 18-21.</span></li><li><span style="font-family: Cabin; font-size: 12pt;">Pavol Loffay talks about the <a class="jive-link-external-small" href="https://planet.jboss.org/post/kubernetes_and_openshift_templates_for_jaeger" rel="nofollow">Kubernetes and OpenShift Templates for Jaeger</a>.</span></li><li><span style="font-family: Cabin; font-size: 12pt;">Dimitris Andreadis provided a <a class="jive-link-external-small" href="https://planet.jboss.org/post/voxxed_days_athens_recap" rel="nofollow">Voxxed Days Athens recap</a>.</span></li><li><span style="font-family: Cabin; font-size: 12pt;">Andrew Dinn detailed <a class="jive-link-external-small" href="https://planet.jboss.org/post/configuring_bmunit_for_the_latest_jdk9_ea_releases" rel="nofollow">configuring BMUnit for the latest JDK9 EA releases</a>.</span></li><li><span style="font-family: Cabin; font-size: 12pt;">Mark Little points to <a class="jive-link-external-small" href="https://planet.jboss.org/post/transactions_and_microservices_on_the_rise" rel="nofollow">transactions and microservices on the rise</a>.</span></li><li><span style="font-family: Cabin; font-size: 12pt;">Galder Zamarreno recaps some of the <a class="jive-link-external-small" href="https://planet.jboss.org/post/j_on_the_beach_an_unmissable_conference_for_distributed_computing_tech" rel="nofollow">J On the Beach conference</a>.</span></li><li><span style="font-family: Cabin; font-size: 12pt;">An i<a class="jive-link-external-small" href="https://planet.jboss.org/post/presentation_of_the_vert_x_swagger_project" rel="nofollow">ntroduction to the Vert.x-Swagger project </a>was provided by a Vert.x community member.</span></li></ul><p style="min-height: 8pt; padding: 0px;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: inherit;"><span style="color: #000000; font-weight: inherit; font-size: 18pt; font-family: inherit; font-style: inherit;"><strong>Releases</strong></span></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><ul><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/teiid_9_3_cr1" rel="nofollow">Teiid 9.3 CR1</a> - Recap of the features in addition to addressed issues are highlighted in the blog.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/version_1_3_0_final_of_apiman_is_released" rel="nofollow">APIMan 1.3.0.Final</a> - This release includes important new features, bug-fixes and marks the official release of Apiman Vert.x Gateway.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/errai_4_0_0_final_released" rel="nofollow">Errai 4.0.0.Final</a> - The blog discusses the major changes from Errai 3 to 4.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/narayana_5_6_0_final_released" rel="nofollow">Narayana 5.6.0.Final</a> - The release includesa collection of improvements.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/update_to_the_bean_validation_2_0_public_review_draft" rel="nofollow">Update to Bean Validation 2.0 Public Review Draft</a> - Outstanding issues, clarificatons, etc were addressed.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/hibernate_validator_6_0_0_beta2_is_out_with_bean_validation_2_0_0_beta2_support" rel="nofollow">Hibernate Validator 6.0.0.Beta2</a> - This update was to add the Bean Validation 2.0.0.Beta2 support.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/kube_ping_0_9_3_released" rel="nofollow">KUBE_PING 0.9.3</a> - Major changes were released.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/infinispan_9_0_1_final_released" rel="nofollow">Infinispan 9.0.1.Final</a> - Several fixes were released.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/arquillian_osgi_2_2_1_final_released" rel="nofollow">Arquillian OSGi 2.2.1.Final</a> - The blog provides the release details for the OSGi Component.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/infinispan_spring_boot_starters_1_0_0_final_released" rel="nofollow">Infinispan Spring Boot Starters 1.0.0.Final</a> - The blog provides further detail.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/hibernate_orm_5_1_7_final_released" rel="nofollow">Hibernate ORM 5.1.7.Final</a> - Some bug fixes to be included in an upcoming version of Wildfly.</span></li><li><span style="font-family: Cabin; font-size: 12pt;"><a class="jive-link-external-small" href="https://planet.jboss.org/post/hibernate_orm_5_1_7_final_released" rel="nofollow">Arquillian Cube Extension 1.4.0</a> - Release details are provided in the article.</span></li></ul><p style="min-height: 8pt; padding: 0px;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="color: #000080; font-weight: inherit; font-size: 18pt; font-family: inherit; font-style: inherit;"><em>Thanks for being a part of the JBoss Community and stay tuned for the next Weekly Editorial!</em></span></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;">Kenneth Peeples</span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;">Vice President of Engineering,</span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;">Enterprise Services Practice, ISC-CG, Federal</span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;"><a class="jive-link-email-small" href="mailto:kenneth.peeples@isc-cg.com" rel="nofollow">kenneth.peeples@isc-cg.com</a></span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;">Open Source Solutions Director, Shadow-Soft, Commercial</span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;"><a class="jive-link-email-small" href="mailto:kpeeples@shadow-soft.com" rel="nofollow">kpeeples@shadow-soft.com</a></span></p></div><!-- [DocumentBodyEnd:37282a7c-ed98-448d-8652-4f55f6ff61e2] -->]]></summary>
+	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:37282a7c-ed98-448d-8652-4f55f6ff61e2] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;I was pleased to see that &lt;a href="https://developers.redhat.com/blog/2017/05/25/why-redhat-is-acquiring-codenvy/" rel="nofollow" target="_blank"&gt;Red Hat has acquired Codenvy to expand their cloud-native app dev portfolio&lt;/a&gt;.&amp;nbsp; Back in 2014 Codenvy started Eclipse Che by exporting and open sourcing their cloud kernel.&amp;nbsp; &lt;a href="https://www.eclipse.org/che/technology/" rel="nofollow" target="_blank"&gt;As it says on the site&lt;/a&gt;, Eclipse Che, Development Witchcraft, is the IDE and developer workspace server that allows contributing to a project without having to install software.&amp;nbsp; I am looking forward to working more with the project and seeing the contributions from Red Hat and the community with the container-based worskspace approach.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Now on to the happenings in our open source community!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;The Past Weeks Highlights&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Christian Posta provided a couple of articles this week:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;He described his blog series on &lt;a href="https://planet.jboss.org/post/microservices_patterns_with_envoy_sidecar_proxy_the_series" rel="nofollow" target="_blank"&gt;Microservices Patterns with Envoy Sidecar Proxy.&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;His article &lt;a href="https://planet.jboss.org/post/microservices_patterns_with_envoy_sidecar_proxy_part_i_circuit_breaking" rel="nofollow" target="_blank"&gt;Microservices Patterns with Envoy Sidecare Proxy, Part 1: Circuit Breaking&lt;/a&gt; introduces readers to Envoy Proxy's implementation of circuit-breaking functionality. He includes demos with the articles.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Eric Schabell discusses his sessions at the &lt;a href="https://planet.jboss.org/post/tips_for_attending_the_red_hat_partner_conference_emea" rel="nofollow" target="_blank"&gt;Red Hat Partner Conference EMEA&lt;/a&gt; taking place in Frankfurt, Germany from June 18-21.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Pavol Loffay talks about the &lt;a href="https://planet.jboss.org/post/kubernetes_and_openshift_templates_for_jaeger" rel="nofollow" target="_blank"&gt;Kubernetes and OpenShift Templates for Jaeger&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Dimitris Andreadis provided a &lt;a href="https://planet.jboss.org/post/voxxed_days_athens_recap" rel="nofollow" target="_blank"&gt;Voxxed Days Athens recap&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Andrew Dinn detailed &lt;a href="https://planet.jboss.org/post/configuring_bmunit_for_the_latest_jdk9_ea_releases" rel="nofollow" target="_blank"&gt;configuring BMUnit for the latest JDK9 EA releases&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Mark Little points to &lt;a href="https://planet.jboss.org/post/transactions_and_microservices_on_the_rise" rel="nofollow" target="_blank"&gt;transactions and microservices on the rise&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Galder Zamarreno recaps some of the &lt;a href="https://planet.jboss.org/post/j_on_the_beach_an_unmissable_conference_for_distributed_computing_tech" rel="nofollow" target="_blank"&gt;J On the Beach conference&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;An i&lt;a href="https://planet.jboss.org/post/presentation_of_the_vert_x_swagger_project" rel="nofollow" target="_blank"&gt;ntroduction to the Vert.x-Swagger project &lt;/a&gt;was provided by a Vert.x community member.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Releases&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/teiid_9_3_cr1" rel="nofollow" target="_blank"&gt;Teiid 9.3 CR1&lt;/a&gt; - Recap of the features in addition to addressed issues are highlighted in the blog.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/version_1_3_0_final_of_apiman_is_released" rel="nofollow" target="_blank"&gt;APIMan 1.3.0.Final&lt;/a&gt; - This release includes important new features, bug-fixes and marks the official release of Apiman Vert.x Gateway.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/errai_4_0_0_final_released" rel="nofollow" target="_blank"&gt;Errai 4.0.0.Final&lt;/a&gt; - The blog discusses the major changes from Errai 3 to 4.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/narayana_5_6_0_final_released" rel="nofollow" target="_blank"&gt;Narayana 5.6.0.Final&lt;/a&gt; - The release includesa collection of improvements.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/update_to_the_bean_validation_2_0_public_review_draft" rel="nofollow" target="_blank"&gt;Update to Bean Validation 2.0 Public Review Draft&lt;/a&gt; - Outstanding issues, clarificatons, etc were addressed.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/hibernate_validator_6_0_0_beta2_is_out_with_bean_validation_2_0_0_beta2_support" rel="nofollow" target="_blank"&gt;Hibernate Validator 6.0.0.Beta2&lt;/a&gt; - This update was to add the Bean Validation 2.0.0.Beta2 support.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/kube_ping_0_9_3_released" rel="nofollow" target="_blank"&gt;KUBE_PING 0.9.3&lt;/a&gt; - Major changes were released.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/infinispan_9_0_1_final_released" rel="nofollow" target="_blank"&gt;Infinispan 9.0.1.Final&lt;/a&gt; - Several fixes were released.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/arquillian_osgi_2_2_1_final_released" rel="nofollow" target="_blank"&gt;Arquillian OSGi 2.2.1.Final&lt;/a&gt; - The blog provides the release details for the OSGi Component.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/infinispan_spring_boot_starters_1_0_0_final_released" rel="nofollow" target="_blank"&gt;Infinispan Spring Boot Starters 1.0.0.Final&lt;/a&gt; - The blog provides further detail.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/hibernate_orm_5_1_7_final_released" rel="nofollow" target="_blank"&gt;Hibernate ORM 5.1.7.Final&lt;/a&gt; - Some bug fixes to be included in an upcoming version of Wildfly.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://planet.jboss.org/post/hibernate_orm_5_1_7_final_released" rel="nofollow" target="_blank"&gt;Arquillian Cube Extension 1.4.0&lt;/a&gt; - Release details are provided in the article.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Thanks for being a part of the JBoss Community and stay tuned for the next Weekly Editorial!&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Kenneth Peeples&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Vice President of Engineering,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Enterprise Services Practice, ISC-CG, Federal&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;a href="mailto:kenneth.peeples@isc-cg.com" rel="nofollow" target="_blank"&gt;kenneth.peeples@isc-cg.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Open Source Solutions Director, Shadow-Soft, Commercial&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;a href="mailto:kpeeples@shadow-soft.com" rel="nofollow" target="_blank"&gt;kpeeples@shadow-soft.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:37282a7c-ed98-448d-8652-4f55f6ff61e2] --&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/_UO3MvE1CyI" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-05-28T04:43:34+00:00</updated>
+	<author><name>Kenneth Peeples</name></author>
+	<source>
+		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
+		<title>Weekly Editorial</title></source>
+
+
+<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/05/28/this-week-in-jboss-25th-may-2017-development-wizadry</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/integration-stack-4.4.3.Final.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/GDngCZ3XsjM/integration-stack-4.4.3.Final.html" rel="alternate" type="text/html" />
+	<title>Fuse and BRMS Tooling Maintenance Release for Neon.3</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p><strong>Try our complete Eclipse-Neon capable, Devstudio 10.4.0 compatible integration tooling.</strong></p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p><strong>JBoss Tools Integration Stack 4.4.3.Final / JBoss Developer Studio Integration Stack 10.3.0.GA</strong></p>
+      </div>
+      <div class="admonitionblock note">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-note" title="Note"></i>
+      </td>
+      <td class="content">
+      All of the Integration Stack components have been verified to work with the same dependencies as JBoss Tools 4.4 and Developer Studio 10.
+      </td>
+      </tr>
+      </table>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-s-new-for-this-release"><a class="anchor" href="#what-s-new-for-this-release"></a>What’s new for this release?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>This release syncs up with Devstudio 10.4.0, JBoss Tools 4.4.4 and Eclipse Neon.3.  It is also a maintenance release for Fuse Tooling, SwitchYard and the BRMS tooling.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="released-tooling-highlights"><a class="anchor" href="#released-tooling-highlights"></a>Released Tooling Highlights</h3>
+      <div class="sect3">
+      <h4 id="jboss-fuse-development-highlights"><a class="anchor" href="#jboss-fuse-development-highlights"></a>JBoss Fuse Development Highlights</h4>
+      <div class="sect4">
+      <h5 id="fuse-tooling-highlights"><a class="anchor" href="#fuse-tooling-highlights"></a>Fuse Tooling Highlights</h5>
+      <div class="paragraph">
+      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/resolved_issues">Fuse Tooling 9.2.0.Final Resolved Issues Section</a> of the Integration Stack 10.3.0.GA release notes.</p>
+      </div>
+      </div>
+      <div class="sect4">
+      <h5 id="switchyard-highlights"><a class="anchor" href="#switchyard-highlights"></a>SwitchYard Highlights</h5>
+      <div class="paragraph">
+      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/resolved_issues#switchyard_2_3_1_final_2">SwitchYard 2.3.1.Final Resolved Issues Section</a> of the Integration Stack 10.3.0.GA release notes.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="jboss-business-process-and-rules-development"><a class="anchor" href="#jboss-business-process-and-rules-development"></a>JBoss Business Process and Rules Development</h4>
+      <div class="sect4">
+      <h5 id="bpmn2-modeler-known-issues"><a class="anchor" href="#bpmn2-modeler-known-issues"></a>BPMN2 Modeler Known Issues</h5>
+      <div class="paragraph">
+      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/known_issues#bpmn2_1_3_3_final_1_3_1_final">BPMN2 1.3.3.Final Known Issues Section</a> of the Integration Stack 10.3.0.GA release notes.</p>
+      </div>
+      </div>
+      <div class="sect4">
+      <h5 id="drools-jbpm6-known-issues"><a class="anchor" href="#drools-jbpm6-known-issues"></a>Drools/jBPM6 Known Issues</h5>
+      <div class="paragraph">
+      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/known_issues#drools_6_5_1_final">Drools 6.5.1.Final Known Issues Section</a></p>
+      </div>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="data-virtualization-highlights"><a class="anchor" href="#data-virtualization-highlights"></a>Data Virtualization Highlights</h4>
+      <div class="sect4">
+      <h5 id="teiid-designer-known-issues"><a class="anchor" href="#teiid-designer-known-issues"></a>Teiid Designer Known Issues</h5>
+      <div class="paragraph">
+      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/known_issues#teiid_designer_11_0_1_final">Teiid Designer 11.0.1.Final Resolved Issues Section</a> of the Integration Stack 10.1.0.GA release notes.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-s-an-integration-stack"><a class="anchor" href="#what-s-an-integration-stack"></a>What’s an Integration Stack?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Red Hat JBoss Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by JBoss Developer Studio, with plug-ins specifically for use when developing for other Red Hat JBoss products.  It’s where the Fuse Tooling, DataVirt Tooling and BRMS tooling is aggregated.  The following frameworks are supported:</p>
+      </div>
+      <div class="sect2">
+      <h3 id="jboss-fuse-development"><a class="anchor" href="#jboss-fuse-development"></a>JBoss Fuse Development</h3>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p><a href="https://tools.jboss.org/features/apachecamel.html">Fuse Tooling</a> - JBoss Fuse Development provides tooling for Red Hat JBoss Fuse.  It features the latest versions of the Fuse Data Transformation tooling, Fuse Integration Services support, SwitchYard and access to the Fuse SAP Tool Suite.</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/features/switchyard.html">SwitchYard</a> - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.</p>
+      </li>
+      </ul>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="jboss-business-process-and-rules-development-2"><a class="anchor" href="#jboss-business-process-and-rules-development-2"></a>JBoss Business Process and Rules Development</h3>
+      <div class="paragraph">
+      <p>JBoss Business Process and Rules Development plug-ins provide design, debug and testing tooling for developing business processes for Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p><a href="https://tools.jboss.org/features/bpel.html">BPEL Designer</a> - Orchestrating your business processes.</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/features/bpmn2.html">BPMN2 Modeler</a> - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/features/drools.html">Drools</a> - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing including KIE.</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/features/jbpm.html">jBPM6</a> - A flexible Business Process Management (BPM) suite.</p>
+      </li>
+      </ul>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="jboss-data-virtualization-development"><a class="anchor" href="#jboss-data-virtualization-development"></a>JBoss Data Virtualization Development</h3>
+      <div class="paragraph">
+      <p>JBoss Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat JBoss Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories.</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p><a href="https://tools.jboss.org/features/teiiddesigner.html">Teiid Designer</a> - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.</p>
+      </li>
+      </ul>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="jboss-integration-and-soa-development"><a class="anchor" href="#jboss-integration-and-soa-development"></a>JBoss Integration and SOA Development</h3>
+      <div class="paragraph">
+      <p>JBoss Integration and SOA Development plug-ins provide tooling for developing, configuring and deploying BRMS, SwitchYard and Fuse applications to Red Hat JBoss Fuse and Fuse Fabric containers, Apache ServiceMix, and Apache Karaf instances.</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p>All of the Business Process and Rules Development plugins, plus…​</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/features/apachecamel.html">Fuse Apache Camel Tooling</a> - A graphical tool for integrating software components that works with Apache ServiceMix, Apache ActiveMQ, Apache Camel and the FuseSource distributions.</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/features/switchyard.html">SwitchYard</a> - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.</p>
+      </li>
+      </ul>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="the-jboss-tools-website-features-tab"><a class="anchor" href="#the-jboss-tools-website-features-tab"></a>The JBoss Tools website features tab</h3>
+      <div class="paragraph">
+      <p>Don’t miss the <a href="https://tools.jboss.org/features">Features tab</a> for up to date information on your favorite Integration Stack components.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="installation"><a class="anchor" href="#installation"></a>Installation</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>The easiest way to install the Integration Stack components is through the <a href="https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&amp;product=jbossdeveloperstudio&amp;version=6.3.0&amp;productChanged=yes">stand-alone installer</a>.  If you’re interested specifically in Fuse we have the all-in-one installer <a href="https://developers.redhat.com/download-manager/file/devstudio-integration-stack-10.3.0.GA-fuse-installer-runtime.jar">JBoss Fuse Tooling + JBoss Fuse/Karaf runtime</a>.</p>
+      </div>
+      <div class="paragraph">
+      <p>For a complete set of Integration Stack installation instructions, see <a href="https://access.redhat.com/documentation/en/red-hat-jboss-developer-studio-integration-stack/10.0/paged/installation-guide/">Integration Stack Installation Instructions</a></p>
+      </div>
+      <div class="paragraph">
+      <p><em>Give it a try!</em></p>
+      </div>
+      <div class="paragraph">
+      <p>Paul Leacu.</p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;strong&gt;Try our complete Eclipse-Neon capable, Devstudio 10.4.0 compatible integration tooling.&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;strong&gt;JBoss Tools Integration Stack 4.4.3.Final / JBoss Developer Studio Integration Stack 10.3.0.GA&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Note"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      All of the Integration Stack components have been verified to work with the same dependencies as JBoss Tools 4.4 and Developer Studio 10.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-s-new-for-this-release" target="_blank"&gt;&lt;/a&gt;What&amp;rsquo;s new for this release?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This release syncs up with Devstudio 10.4.0, JBoss Tools 4.4.4 and Eclipse Neon.3.  It is also a maintenance release for Fuse Tooling, SwitchYard and the BRMS tooling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#released-tooling-highlights" target="_blank"&gt;&lt;/a&gt;Released Tooling Highlights&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#jboss-fuse-development-highlights" target="_blank"&gt;&lt;/a&gt;JBoss Fuse Development Highlights&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;h5&gt;&lt;a href="#fuse-tooling-highlights" target="_blank"&gt;&lt;/a&gt;Fuse Tooling Highlights&lt;/h5&gt;
+      &lt;div&gt;
+      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/resolved_issues" target="_blank"&gt;Fuse Tooling 9.2.0.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 10.3.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h5&gt;&lt;a href="#switchyard-highlights" target="_blank"&gt;&lt;/a&gt;SwitchYard Highlights&lt;/h5&gt;
+      &lt;div&gt;
+      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/resolved_issues#switchyard_2_3_1_final_2" target="_blank"&gt;SwitchYard 2.3.1.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 10.3.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#jboss-business-process-and-rules-development" target="_blank"&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;h5&gt;&lt;a href="#bpmn2-modeler-known-issues" target="_blank"&gt;&lt;/a&gt;BPMN2 Modeler Known Issues&lt;/h5&gt;
+      &lt;div&gt;
+      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/known_issues#bpmn2_1_3_3_final_1_3_1_final" target="_blank"&gt;BPMN2 1.3.3.Final Known Issues Section&lt;/a&gt; of the Integration Stack 10.3.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h5&gt;&lt;a href="#drools-jbpm6-known-issues" target="_blank"&gt;&lt;/a&gt;Drools/jBPM6 Known Issues&lt;/h5&gt;
+      &lt;div&gt;
+      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/known_issues#drools_6_5_1_final" target="_blank"&gt;Drools 6.5.1.Final Known Issues Section&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#data-virtualization-highlights" target="_blank"&gt;&lt;/a&gt;Data Virtualization Highlights&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;h5&gt;&lt;a href="#teiid-designer-known-issues" target="_blank"&gt;&lt;/a&gt;Teiid Designer Known Issues&lt;/h5&gt;
+      &lt;div&gt;
+      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.3/html/10.3.0_release_notes_and_known_issues/known_issues#teiid_designer_11_0_1_final" target="_blank"&gt;Teiid Designer 11.0.1.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 10.1.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-s-an-integration-stack" target="_blank"&gt;&lt;/a&gt;What&amp;rsquo;s an Integration Stack?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Red Hat JBoss Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by JBoss Developer Studio, with plug-ins specifically for use when developing for other Red Hat JBoss products.  It&amp;rsquo;s where the Fuse Tooling, DataVirt Tooling and BRMS tooling is aggregated.  The following frameworks are supported:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#jboss-fuse-development" target="_blank"&gt;&lt;/a&gt;JBoss Fuse Development&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/apachecamel.html" target="_blank"&gt;Fuse Tooling&lt;/a&gt; - JBoss Fuse Development provides tooling for Red Hat JBoss Fuse.  It features the latest versions of the Fuse Data Transformation tooling, Fuse Integration Services support, SwitchYard and access to the Fuse SAP Tool Suite.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/switchyard.html" target="_blank"&gt;SwitchYard&lt;/a&gt; - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#jboss-business-process-and-rules-development-2" target="_blank"&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Business Process and Rules Development plug-ins provide design, debug and testing tooling for developing business processes for Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/bpel.html" target="_blank"&gt;BPEL Designer&lt;/a&gt; - Orchestrating your business processes.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/bpmn2.html" target="_blank"&gt;BPMN2 Modeler&lt;/a&gt; - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/drools.html" target="_blank"&gt;Drools&lt;/a&gt; - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing including KIE.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/jbpm.html" target="_blank"&gt;jBPM6&lt;/a&gt; - A flexible Business Process Management (BPM) suite.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#jboss-data-virtualization-development" target="_blank"&gt;&lt;/a&gt;JBoss Data Virtualization Development&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat JBoss Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/teiiddesigner.html" target="_blank"&gt;Teiid Designer&lt;/a&gt; - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#jboss-integration-and-soa-development" target="_blank"&gt;&lt;/a&gt;JBoss Integration and SOA Development&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Integration and SOA Development plug-ins provide tooling for developing, configuring and deploying BRMS, SwitchYard and Fuse applications to Red Hat JBoss Fuse and Fuse Fabric containers, Apache ServiceMix, and Apache Karaf instances.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;All of the Business Process and Rules Development plugins, plus&amp;hellip;&amp;#8203;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/apachecamel.html" target="_blank"&gt;Fuse Apache Camel Tooling&lt;/a&gt; - A graphical tool for integrating software components that works with Apache ServiceMix, Apache ActiveMQ, Apache Camel and the FuseSource distributions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/switchyard.html" target="_blank"&gt;SwitchYard&lt;/a&gt; - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#the-jboss-tools-website-features-tab" target="_blank"&gt;&lt;/a&gt;The JBoss Tools website features tab&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;Don&amp;rsquo;t miss the &lt;a href="https://tools.jboss.org/features" target="_blank"&gt;Features tab&lt;/a&gt; for up to date information on your favorite Integration Stack components.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#installation" target="_blank"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The easiest way to install the Integration Stack components is through the &lt;a href="https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&amp;amp;product=jbossdeveloperstudio&amp;amp;version=6.3.0&amp;amp;productChanged=yes" target="_blank"&gt;stand-alone installer&lt;/a&gt;.  If you&amp;rsquo;re interested specifically in Fuse we have the all-in-one installer &lt;a href="https://developers.redhat.com/download-manager/file/devstudio-integration-stack-10.3.0.GA-fuse-installer-runtime.jar" target="_blank"&gt;JBoss Fuse Tooling + JBoss Fuse/Karaf runtime&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For a complete set of Integration Stack installation instructions, see &lt;a href="https://access.redhat.com/documentation/en/red-hat-jboss-developer-studio-integration-stack/10.0/paged/installation-guide/" target="_blank"&gt;Integration Stack Installation Instructions&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;em&gt;Give it a try!&lt;/em&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Paul Leacu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/GDngCZ3XsjM" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-05-24T14:03:19+00:00</updated>
+	<author><name>pleacu</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="release" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/integration-stack-4.4.3.Final.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/10.4.0.ga-for-neon.3.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/-FMRql7uzVw/10.4.0.ga-for-neon.3.html" rel="alternate" type="text/html" />
+	<title>JBoss Tools and Red Hat Developer Studio Maintenance Release for Eclipse Neon.3</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p><a href="https://tools.jboss.org/downloads/jbosstools/neon/4.4.4.Final.html">JBoss Tools 4.4.4</a> and <a href="https://tools.jboss.org/downloads/devstudio/neon/10.4.0.GA.html">Red Hat JBoss Developer Studio 10.4</a> for Eclipse Neon.3 are here waiting for you. Check it out!</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/devstudio10.png" alt="devstudio10" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="installation"><a class="anchor" href="#installation"></a>Installation</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our <a href="https://developers.redhat.com/products/devstudio">Red Hat developers</a> and run it like this:</p>
+      </div>
+      <div class="literalblock">
+      <div class="content">
+      <pre>java -jar devstudio-&lt;installername&gt;.jar</pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:</p>
+      </div>
+      <div class="paragraph">
+      <p>This release requires at least Eclipse 4.6.3 (Neon.3) but we recommend
+      using the latest <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon3">Eclipse 4.6.3 Neon JEE Bundle</a> since then you get most of the dependencies preinstalled.</p>
+      </div>
+      <div class="paragraph">
+      <p>Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat JBoss Developer Studio&quot;.</p>
+      </div>
+      <div class="paragraph">
+      <p>For JBoss Tools, you can also use our update site directly.</p>
+      </div>
+      <div class="literalblock">
+      <div class="content">
+      <pre>http://download.jboss.org/jbosstools/neon/stable/updates/</pre>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-new"><a class="anchor" href="#what-is-new"></a>What is new?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Our main focus for this release was improvements for container based development and bug fixing.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="improved-openshift-3-and-docker-tools"><a class="anchor" href="#improved-openshift-3-and-docker-tools"></a>Improved OpenShift 3 and Docker Tools</h3>
+      <div class="paragraph">
+      <p>We continue to work on providing better experience for container based development in JBoss Tools and Developer Studio. Let’s go through a few interesting updates here.</p>
+      </div>
+      <div class="sect3">
+      <h4 id="openshift-server-adapter-enhanced-flexibility"><a class="anchor" href="#openshift-server-adapter-enhanced-flexibility"></a>OpenShift Server Adapter enhanced flexibility</h4>
+      <div class="paragraph">
+      <p>OpenShift server adapter is a great tool that allows developers to synchronize local changes in the Eclipse workspace with running pods in the
+      OpenShift cluster. It also allows you to remote debug those pods when the server adapter is launched in Debug mode.
+      The supported stacks are Java and NodeJS.</p>
+      </div>
+      <div class="paragraph">
+      <p>As pods are ephemeral OpenShift resources, the server adapter definition was based on an OpenShift service resource and the pods are then
+      dynamically computed from the service selector.</p>
+      </div>
+      <div class="paragraph">
+      <p>This has a major drawback as it allows to use this feature only for pods that are part of a service, which may be logical for Web based applications
+      as a route (and thus a service) is required in order to access the application.</p>
+      </div>
+      <div class="paragraph">
+      <p>So, it is now possible to create a server adapter from the following OpenShift resources:</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p>service (as before)</p>
+      </li>
+      <li>
+      <p>deployment config</p>
+      </li>
+      <li>
+      <p>replication controller</p>
+      </li>
+      <li>
+      <p>pod</p>
+      </li>
+      </ul>
+      </div>
+      <div class="paragraph">
+      <p>If a server adapter is created from a pod, it will be created from the associated OpenShift resource, in the preferred order:</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p>service</p>
+      </li>
+      <li>
+      <p>deployment config</p>
+      </li>
+      <li>
+      <p>replication controller</p>
+      </li>
+      </ul>
+      </div>
+      <div class="paragraph">
+      <p>As the OpenShift explorer used to display OpenShift resources that were linked to a service, it has been enhanced as well.
+      It now displays resources linked to a deployment config or replication controller.
+      Here is an example of a deployment with no service ie a deployment config:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced.png" alt="server adapter enhanced" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>So, as an OpenShift server adapter can be created from different kind of resources, the kind of associated resource is displayed when
+      creating the OpenShift server adapter:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced1.png" alt="server adapter enhanced1" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Once created, the kind of OpenShift resource adapter is also displayed in the Servers view:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced2.png" alt="server adapter enhanced2" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>This information is also available from the server editor:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced3.png" alt="server adapter enhanced3" width="600" />
+      </div>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="security-vulnerability-fixed-in-certificate-validation-database"><a class="anchor" href="#security-vulnerability-fixed-in-certificate-validation-database"></a>Security vulnerability fixed in certificate validation database</h4>
+      <div class="admonitionblock important">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-important" title="Important"></i>
+      </td>
+      <td class="content">
+      <div class="paragraph">
+      <p>When you use the OpenShift tooling to connect to an OpenShift API server, the certificate of the OpenShift API server
+      is first validated. If the issuer authority is a known one, then the connection is then established. If the issuer is an
+      unknown one, a validation dialog is first shown to the user with the details of the OpenShift API server certificate as well
+      as the details of the issuer authority. If the user accepts it, then the connection is established. There is also an option to
+      store the certificate in a database so that next time a connection is attempted to the same OpenShift API server, then the certificate
+      will be considered valid an no validation dialog will be show again.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/certificate-validation-dialog.png" alt="certificate validation dialog" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>We found a security vulnerability as the certificate was wrongly stored: it was partially stored (not all attributes were stored) so we may
+      interpret a different certificate as validated where it should not.</p>
+      </div>
+      <div class="paragraph">
+      <p>We had to change the format of the certificate database. As the certificates stored in the previous database were not entirelly stored, there was
+      no way to provide a migration path. As a result, after the upgrade, the certificate database will be empty. So if you had previously accepted some
+      certificates, then you need to accept them again and fill the certificate database again.</p>
+      </div>
+      </td>
+      </tr>
+      </table>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="cdk-3-server-adapter"><a class="anchor" href="#cdk-3-server-adapter"></a>CDK 3 Server Adapter</h4>
+      <div class="paragraph">
+      <p>The CDK 3 server adapter has been here for quite a long time. It used to be Tech Preview as CDK 3 was not officially released. It is now officially available.
+      While the server adapter itself has limited functionality, it is able to start and stop the CDK virtual machine via its minishift binary.
+      Simply hit Ctrl+3 (Cmd+3 on OSX) and type CDK, that will bring up a command to setup and/or launch the CDK server adapter.
+      You should see the old CDK 2 server adapter along with the new CDK 3 one (labeled <strong>Red Hat Container Development Kit 3</strong>).</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter5.png" alt="cdk3 server adapter5" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>All you have to do is set the credentials for your Red Hat account and the location of the CDK’s minishift binary file and the type of virtualization hypervisor.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter1.png" alt="cdk3 server adapter1" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Once you’re finished, a new CDK Server adapter will then be created and visible in the Servers view.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter2.png" alt="cdk3 server adapter2" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicable environment.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter3.png" alt="cdk3 server adapter3" width="600" />
+      </div>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter4.png" alt="cdk3 server adapter4" width="600" />
+      </div>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="openshift-container-platform-3-5-support"><a class="anchor" href="#openshift-container-platform-3-5-support"></a>OpenShift Container Platform 3.5 support</h4>
+      <div class="paragraph">
+      <p>OpenShift Container Platform (OCP) 3.5 has been
+      <a href="https://www.redhat.com/en/about/press-releases/red-hat-brings-kubernetes-new-application-workloads-latest-version-red-hat-openshift-container-platform" target="_blank">announced</a> by Red Hat.
+      JBossTools 4.4.4.Final has been validated against OCP 3.5.</p>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="openshift-server-adapter-extensibility"><a class="anchor" href="#openshift-server-adapter-extensibility"></a>OpenShift server adapter extensibility</h4>
+      <div class="paragraph">
+      <p>The OpenShift server adapter had long support for EAP/Wildfly and NodeJS based deployments. It turns out that it does a great deal of synchronizing
+      local workspace changes to remote deployments on OpenShift which have been standardized through images metadata (labels). But each runtime has its
+      own specific. As an example, Wildfly/EAP deployments requires that a re-deploy trigger is sent after the files have been synchronized.</p>
+      </div>
+      <div class="paragraph">
+      <p>In order to reduce the technical debt and allow support for other runtimes (lots of them in the microservice world), we have refactored the OpenShift
+      server adapter so that each runtime specific is now isolated and that it will be easy and safe to add support for new runtime.</p>
+      </div>
+      <div class="paragraph">
+      <p>For a full in-depth description, see the following <a href="https://github.com/jbosstools/jbosstools-openshift/wiki/Openshift-server-adapter-profile-and-its-subsystems">wiki page</a>.</p>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="pipeline-builds-support"><a class="anchor" href="#pipeline-builds-support"></a>Pipeline builds support</h4>
+      <div class="paragraph">
+      <p>Pipeline based builds are now supported by the OpenShift tooling.
+      When creating an application, if using a template, if one of the builds is based on pipeline, you can view the detail
+      of the pipeline:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-wizard.png" alt="pipeline wizard" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>When your application is deployed, you can see the details of the build configuration for the pipeline based builds:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-details.png" alt="pipeline details" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>More to come as we are improving the pipeline support in the OpenShift tooling.</p>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="update-of-docker-client"><a class="anchor" href="#update-of-docker-client"></a>Update of Docker Client</h4>
+      <div class="paragraph">
+      <p>The level of the underlying com.spotify.docker.client plug-in used to access the Docker daemon has been upgraded to 3.6.8.</p>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="run-image-network-support"><a class="anchor" href="#run-image-network-support"></a>Run Image Network Support</h4>
+      <div class="paragraph">
+      <p>A new page has been added to the Docker Run Image Wizard and Docker Run Image Launch configuration that allows
+      the end-user to specify the network mode to use.  A user can choose from Default, Bridge, Host, None, Container,
+      or Other.  If Container is selected, the user must choose from an active Container to use the same network mode.
+      If Other is specified, a named network can be specified.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerNetworkMode.png" alt="Network Mode" />
+      </div>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerRunConfigNetworkMode.png" alt="Network Mode Configuration" />
+      </div>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="refresh-connection"><a class="anchor" href="#refresh-connection"></a>Refresh Connection</h4>
+      <div class="paragraph">
+      <p>Users can now refresh the entire connection from the Docker Explorer View.  Refresh can be performed two ways:</p>
+      </div>
+      <div class="olist arabic">
+      <ol class="arabic">
+      <li>
+      <p>using the right-click context menu from the Connection</p>
+      </li>
+      <li>
+      <p>using the Refresh menu button when the Connection is selected</p>
+      </li>
+      </ol>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerRefreshConnection.png" alt="Refresh Connection" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="server-tools"><a class="anchor" href="#server-tools"></a>Server Tools</h3>
+      <div class="sect3">
+      <h4 id="api-change-in-jmx-ui-s-new-connection-wizard"><a class="anchor" href="#api-change-in-jmx-ui-s-new-connection-wizard"></a>API Change in JMX UI’s New Connection Wizard</h4>
+      <div class="paragraph">
+      <p>While hardly something most users will care about, extenders may need to be aware that the API for adding connection types to the &apos;New JMX Connection&apos; wizard in the &apos;JMX Navigator&apos; has changed.  Specifically, the &apos;org.jboss.tools.jmx.ui.providerUI&apos; extension point has been changed. While previously having a child element called &apos;wizardPage&apos;, it now requires a &apos;wizardFragment&apos;.</p>
+      </div>
+      <div class="paragraph">
+      <p>A &apos;wizardFragment&apos; is part of the &apos;TaskWizard&apos; framework first used in WTP’s ServerTools, which has, for a many years, been used throughout JBossTools. This framework allows wizard workflows where the set of pages to be displayed can change based on what selections are made on previous pages.</p>
+      </div>
+      <div class="paragraph">
+      <p>This change was made as a direct result of a bug caused by the addition of the Jolokia connection type in which some standard workflows could no longer be completed.</p>
+      </div>
+      <div class="paragraph">
+      <p>This change only affects adopters and extenders, and should have no noticable change for the user, other than that the below bug has been fixed.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="hibernate-tools"><a class="anchor" href="#hibernate-tools"></a>Hibernate Tools</h3>
+      <div class="sect3">
+      <h4 id="hibernate-runtime-provider-updates"><a class="anchor" href="#hibernate-runtime-provider-updates"></a>Hibernate Runtime Provider Updates</h4>
+      <div class="paragraph">
+      <p>A number of additions and updates have been performed on the available Hibernate runtime  providers.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="hibernate-runtime-provider-updates-2"><a class="anchor" href="#hibernate-runtime-provider-updates-2"></a>Hibernate Runtime Provider Updates</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>The Hibernate 5.0 runtime provider now incorporates Hibernate Core version 5.0.12.Final and Hibernate Tools version 5.0.5.Final.</p>
+      </div>
+      <div class="paragraph">
+      <p>The Hibernate 5.1 runtime provider now incorporates Hibernate Core version 5.1.4.Final and Hibernate Tools version 5.1.3.Final.</p>
+      </div>
+      <div class="paragraph">
+      <p>The Hibernate 5.2 runtime provider now incorporates Hibernate Core version 5.2.8.Final and Hibernate Tools version 5.2.2.Final.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="forge-tools"><a class="anchor" href="#forge-tools"></a>Forge Tools</h3>
+      <div class="sect3">
+      <h4 id="forge-runtime-updated-to-3-6-1-final"><a class="anchor" href="#forge-runtime-updated-to-3-6-1-final"></a>Forge Runtime updated to 3.6.1.Final</h4>
+      <div class="paragraph">
+      <p>The included Forge runtime is now 3.6.1.Final. Read the official announcement <a href="http://forge.jboss.org/news/jboss-forge-3.6.1.final-is-here">here</a>.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/forge/images/4.4.4.AM3/startup.png" alt="startup" />
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-next"><a class="anchor" href="#what-is-next"></a>What is next?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Having JBoss Tools 4.4.4 and Developer Studio 10.4 out we are already working on the next release for Eclipse Oxygen.</p>
+      </div>
+      <div class="paragraph">
+      <p>Enjoy!</p>
+      </div>
+      <div class="paragraph">
+      <p>Jeff Maury</p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/downloads/jbosstools/neon/4.4.4.Final.html" target="_blank"&gt;JBoss Tools 4.4.4&lt;/a&gt; and &lt;a href="https://tools.jboss.org/downloads/devstudio/neon/10.4.0.GA.html" target="_blank"&gt;Red Hat JBoss Developer Studio 10.4&lt;/a&gt; for Eclipse Neon.3 are here waiting for you. Check it out!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/devstudio10.png" alt="devstudio10"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#installation" target="_blank"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href="https://developers.redhat.com/products/devstudio" target="_blank"&gt;Red Hat developers&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;java -jar devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.6.3 (Neon.3) but we recommend
+      using the latest &lt;a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon3" target="_blank"&gt;Eclipse 4.6.3 Neon JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under "JBoss Tools" or "Red Hat JBoss Developer Studio".&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/neon/stable/updates/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-new" target="_blank"&gt;&lt;/a&gt;What is new?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Our main focus for this release was improvements for container based development and bug fixing.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#improved-openshift-3-and-docker-tools" target="_blank"&gt;&lt;/a&gt;Improved OpenShift 3 and Docker Tools&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;We continue to work on providing better experience for container based development in JBoss Tools and Developer Studio. Let&amp;rsquo;s go through a few interesting updates here.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#openshift-server-adapter-enhanced-flexibility" target="_blank"&gt;&lt;/a&gt;OpenShift Server Adapter enhanced flexibility&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;OpenShift server adapter is a great tool that allows developers to synchronize local changes in the Eclipse workspace with running pods in the
+      OpenShift cluster. It also allows you to remote debug those pods when the server adapter is launched in Debug mode.
+      The supported stacks are Java and NodeJS.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As pods are ephemeral OpenShift resources, the server adapter definition was based on an OpenShift service resource and the pods are then
+      dynamically computed from the service selector.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This has a major drawback as it allows to use this feature only for pods that are part of a service, which may be logical for Web based applications
+      as a route (and thus a service) is required in order to access the application.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;So, it is now possible to create a server adapter from the following OpenShift resources:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;service (as before)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;deployment config&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;replication controller&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;pod&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If a server adapter is created from a pod, it will be created from the associated OpenShift resource, in the preferred order:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;service&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;deployment config&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;replication controller&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As the OpenShift explorer used to display OpenShift resources that were linked to a service, it has been enhanced as well.
+      It now displays resources linked to a deployment config or replication controller.
+      Here is an example of a deployment with no service ie a deployment config:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced.png" alt="server adapter enhanced" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;So, as an OpenShift server adapter can be created from different kind of resources, the kind of associated resource is displayed when
+      creating the OpenShift server adapter:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced1.png" alt="server adapter enhanced1" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once created, the kind of OpenShift resource adapter is also displayed in the Servers view:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced2.png" alt="server adapter enhanced2" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This information is also available from the server editor:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced3.png" alt="server adapter enhanced3" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#security-vulnerability-fixed-in-certificate-validation-database" target="_blank"&gt;&lt;/a&gt;Security vulnerability fixed in certificate validation database&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Important"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      &lt;div&gt;
+      &lt;p&gt;When you use the OpenShift tooling to connect to an OpenShift API server, the certificate of the OpenShift API server
+      is first validated. If the issuer authority is a known one, then the connection is then established. If the issuer is an
+      unknown one, a validation dialog is first shown to the user with the details of the OpenShift API server certificate as well
+      as the details of the issuer authority. If the user accepts it, then the connection is established. There is also an option to
+      store the certificate in a database so that next time a connection is attempted to the same OpenShift API server, then the certificate
+      will be considered valid an no validation dialog will be show again.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/certificate-validation-dialog.png" alt="certificate validation dialog" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We found a security vulnerability as the certificate was wrongly stored: it was partially stored (not all attributes were stored) so we may
+      interpret a different certificate as validated where it should not.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We had to change the format of the certificate database. As the certificates stored in the previous database were not entirelly stored, there was
+      no way to provide a migration path. As a result, after the upgrade, the certificate database will be empty. So if you had previously accepted some
+      certificates, then you need to accept them again and fill the certificate database again.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#cdk-3-server-adapter" target="_blank"&gt;&lt;/a&gt;CDK 3 Server Adapter&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;The CDK 3 server adapter has been here for quite a long time. It used to be Tech Preview as CDK 3 was not officially released. It is now officially available.
+      While the server adapter itself has limited functionality, it is able to start and stop the CDK virtual machine via its minishift binary.
+      Simply hit Ctrl+3 (Cmd+3 on OSX) and type CDK, that will bring up a command to setup and/or launch the CDK server adapter.
+      You should see the old CDK 2 server adapter along with the new CDK 3 one (labeled &lt;strong&gt;Red Hat Container Development Kit 3&lt;/strong&gt;).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter5.png" alt="cdk3 server adapter5" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;All you have to do is set the credentials for your Red Hat account and the location of the CDK&amp;rsquo;s minishift binary file and the type of virtualization hypervisor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter1.png" alt="cdk3 server adapter1" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once you&amp;rsquo;re finished, a new CDK Server adapter will then be created and visible in the Servers view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter2.png" alt="cdk3 server adapter2" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicable environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter3.png" alt="cdk3 server adapter3" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter4.png" alt="cdk3 server adapter4" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#openshift-container-platform-3-5-support" target="_blank"&gt;&lt;/a&gt;OpenShift Container Platform 3.5 support&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;OpenShift Container Platform (OCP) 3.5 has been
+      &lt;a href="https://www.redhat.com/en/about/press-releases/red-hat-brings-kubernetes-new-application-workloads-latest-version-red-hat-openshift-container-platform" target="_blank"&gt;announced&lt;/a&gt; by Red Hat.
+      JBossTools 4.4.4.Final has been validated against OCP 3.5.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#openshift-server-adapter-extensibility" target="_blank"&gt;&lt;/a&gt;OpenShift server adapter extensibility&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;The OpenShift server adapter had long support for EAP/Wildfly and NodeJS based deployments. It turns out that it does a great deal of synchronizing
+      local workspace changes to remote deployments on OpenShift which have been standardized through images metadata (labels). But each runtime has its
+      own specific. As an example, Wildfly/EAP deployments requires that a re-deploy trigger is sent after the files have been synchronized.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In order to reduce the technical debt and allow support for other runtimes (lots of them in the microservice world), we have refactored the OpenShift
+      server adapter so that each runtime specific is now isolated and that it will be easy and safe to add support for new runtime.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For a full in-depth description, see the following &lt;a href="https://github.com/jbosstools/jbosstools-openshift/wiki/Openshift-server-adapter-profile-and-its-subsystems" target="_blank"&gt;wiki page&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#pipeline-builds-support" target="_blank"&gt;&lt;/a&gt;Pipeline builds support&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;Pipeline based builds are now supported by the OpenShift tooling.
+      When creating an application, if using a template, if one of the builds is based on pipeline, you can view the detail
+      of the pipeline:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-wizard.png" alt="pipeline wizard" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;When your application is deployed, you can see the details of the build configuration for the pipeline based builds:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-details.png" alt="pipeline details" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;More to come as we are improving the pipeline support in the OpenShift tooling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#update-of-docker-client" target="_blank"&gt;&lt;/a&gt;Update of Docker Client&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;The level of the underlying com.spotify.docker.client plug-in used to access the Docker daemon has been upgraded to 3.6.8.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#run-image-network-support" target="_blank"&gt;&lt;/a&gt;Run Image Network Support&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;A new page has been added to the Docker Run Image Wizard and Docker Run Image Launch configuration that allows
+      the end-user to specify the network mode to use.  A user can choose from Default, Bridge, Host, None, Container,
+      or Other.  If Container is selected, the user must choose from an active Container to use the same network mode.
+      If Other is specified, a named network can be specified.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerNetworkMode.png" alt="Network Mode"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerRunConfigNetworkMode.png" alt="Network Mode Configuration"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#refresh-connection" target="_blank"&gt;&lt;/a&gt;Refresh Connection&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;Users can now refresh the entire connection from the Docker Explorer View.  Refresh can be performed two ways:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ol&gt;&lt;li&gt;
+      &lt;p&gt;using the right-click context menu from the Connection&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;using the Refresh menu button when the Connection is selected&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ol&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerRefreshConnection.png" alt="Refresh Connection"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#server-tools" target="_blank"&gt;&lt;/a&gt;Server Tools&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#api-change-in-jmx-ui-s-new-connection-wizard" target="_blank"&gt;&lt;/a&gt;API Change in JMX UI&amp;rsquo;s New Connection Wizard&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;While hardly something most users will care about, extenders may need to be aware that the API for adding connection types to the 'New JMX Connection' wizard in the 'JMX Navigator' has changed.  Specifically, the 'org.jboss.tools.jmx.ui.providerUI' extension point has been changed. While previously having a child element called 'wizardPage', it now requires a 'wizardFragment'.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;A 'wizardFragment' is part of the 'TaskWizard' framework first used in WTP&amp;rsquo;s ServerTools, which has, for a many years, been used throughout JBossTools. This framework allows wizard workflows where the set of pages to be displayed can change based on what selections are made on previous pages.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This change was made as a direct result of a bug caused by the addition of the Jolokia connection type in which some standard workflows could no longer be completed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This change only affects adopters and extenders, and should have no noticable change for the user, other than that the below bug has been fixed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#hibernate-tools" target="_blank"&gt;&lt;/a&gt;Hibernate Tools&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#hibernate-runtime-provider-updates" target="_blank"&gt;&lt;/a&gt;Hibernate Runtime Provider Updates&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;A number of additions and updates have been performed on the available Hibernate runtime  providers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#hibernate-runtime-provider-updates-2" target="_blank"&gt;&lt;/a&gt;Hibernate Runtime Provider Updates&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The Hibernate 5.0 runtime provider now incorporates Hibernate Core version 5.0.12.Final and Hibernate Tools version 5.0.5.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The Hibernate 5.1 runtime provider now incorporates Hibernate Core version 5.1.4.Final and Hibernate Tools version 5.1.3.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The Hibernate 5.2 runtime provider now incorporates Hibernate Core version 5.2.8.Final and Hibernate Tools version 5.2.2.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#forge-tools" target="_blank"&gt;&lt;/a&gt;Forge Tools&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#forge-runtime-updated-to-3-6-1-final" target="_blank"&gt;&lt;/a&gt;Forge Runtime updated to 3.6.1.Final&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;The included Forge runtime is now 3.6.1.Final. Read the official announcement &lt;a href="http://forge.jboss.org/news/jboss-forge-3.6.1.final-is-here" target="_blank"&gt;here&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/forge/images/4.4.4.AM3/startup.png" alt="startup"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-next" target="_blank"&gt;&lt;/a&gt;What is next?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Having JBoss Tools 4.4.4 and Developer Studio 10.4 out we are already working on the next release for Eclipse Oxygen.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/-FMRql7uzVw" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-05-24T12:22:21+00:00</updated>
+	<author><name>jeffmaury</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="release" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/10.4.0.ga-for-neon.3.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/05/19/this-week-in-jboss-19-may-2017</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/9oXWRO-q348/this-week-in-jboss-19-may-2017" rel="alternate" type="text/html" />
+	<title>This week in JBoss (19 May 2017)</title>
+	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:ab612d1a-cfea-4bb1-a0f5-77a5eacbc620] --><div class="jive-rendered-content"><div><div><div class="sectionbody"><div class="paragraph"><p>Another week has come to a close. It&#8217;s been a great week, full of blogs, releases and travel recaps within the JBoss Community! Here&#8217;s a quick recap of what has happened this week.</p></div></div></div><div class="sect1"><h2></h2><h2>Red Hat Summit Interview with Sebastien Blanc</h2><p style="min-height: 8pt; padding: 0px; text-align: left;">&#160;</p><div class="sectionbody"><div class="videoblock"><div class="content"><iframe allowfullscreen="allowfullscreen" frameborder="0" height="330" scrolling="no" src="https://www.youtube.com/embed/hLQk08YnGsM" title="Red Hat Developers - Sebastien Blanc - YouTube" width="440">
+</iframe></div></div><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>You all heard about Red Hat Summit 2017, probably multiple times. While I was there, I was able to get some time with some of our developers and do some quick interviews! These interviews will be highlighted here on the Weekly Editorial. The first one I&#8217;d like to highlight is my interview with Sebastien Blanc, aka Sebi. Sebi has contributed to AeroGear and is currently working on Keycloak, a security solution. In this interview we talk about what Keycloak is, how I would use it, and why it&#8217;s important.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p></div></div></div><div class="sect1"><h2>Releases</h2><div class="sectionbody"><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>A number of releases have happened over the past week!</p></div><div class="sect2"><h3></h3><h3>Arquillian</h3><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The Arquillian team is really churning out the releases, with five releases this past week!</p></div><div class="ulist"><ul><li><p><a class="jive-link-external-small" href="http://arquillian.org/blog/2017/05/16/arquillian-cube-1-3-1/" rel="nofollow">Arquillian Cube 1.3.1</a></p></li><li><p><a class="jive-link-external-small" href="http://arquillian.org/blog/2017/05/16/arquillian-cube-1-3-2/" rel="nofollow">Arquillian Cube 1.3.2</a></p></li><li><p><a class="jive-link-external-small" href="http://arquillian.org/blog/2017/05/19/arquillian-cube-1-4-0/" rel="nofollow">Arquillian Cube 1.4.0</a></p></li><li><p><a class="jive-link-external-small" href="http://arquillian.org/blog/2017/05/18/resolver-3-0-0-beta-2/" rel="nofollow">ShrinkWrap Resolver 3.0.0-beta-2</a></p></li><li><p><a class="jive-link-external-small" href="http://arquillian.org/blog/2017/05/18/arquillian-spacelift-1-0-1/" rel="nofollow">Arquillian Spacelift 1.0.1</a></p></li></ul></div></div><div class="sect2"><h3>Hibernate</h3><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><a class="jive-link-external-small" href="http://in.relation.to/2017/05/16/hibernate-validator-600-beta1-out/" rel="nofollow">Hibernate Validator 6.0.0.Beta1 with Bean Validation 2.0.0.Beta1 support</a> was released this past week! It requires Java 8. Go grab it and play around with some of the new features and validations in this release!</p></div></div><div class="sect2"><h3></h3><h3>APIMAN</h3><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The <a class="jive-link-external-small" href="http://apiman.io/blog/apiman/release/2017/05/25/release-1.3.html" rel="nofollow">APIMAN 1.3.0.Final</a> release came out early this week and includes a number of bug fixes, improved documentation, a headless registry and the Vert.x Gateway has been polished and is officially released!</p></div></div><div class="sect2"><h3></h3><h3>CDI 2.0</h3><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>Fast on the heals of the JCP Ballot finishing, we can officially announce that CDI 2.0 is finished! You can also start playing with it using Weld 3.0.0, which is detailed in the <a class="jive-link-external-small" href="http://www.cdi-spec.org/news/2017/05/15/CDI_2_is_released/" rel="nofollow">release announcement</a>.</p></div></div><div class="sect2"><h3></h3><h3>Immutant</h3><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The Immutant team has released <a class="jive-link-external-small" href="http://immutant.org/news/2017/05/18/announcing-2-1-7/" rel="nofollow">Immuntant 2.1.7</a> which includes some updates to Undertow and Ring. It also fixes some issues with applications not being able to properly respond to HEAD request.</p></div></div></div></div><div class="sect1"><h2></h2><h2>Travels</h2><div class="sectionbody"><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>Because Red Hat Summit is over doesn&#8217;t mean travels are over! Our developers and community have been around ta many other conferences over the past week or two. Check out the recaps of these conferences in the various blogs:</p></div><div class="ulist"><ul><li><p><a class="jive-link-external-small" href="http://www.open4dev.com/journal/2017/5/18/microsoft-build-2017-open-source-and-interoperability.html" rel="nofollow">Microsoft Build 2017</a></p></li><li><p><a class="jive-link-external-small" href="http://corinnekrych.blogspot.com/2017/05/rivieradev-2017-what-great-edition.html" rel="nofollow">RivieraDev 2017</a></p></li><li><p><a class="jive-link-external-small" href="http://blog.infinispan.org/2017/05/infinispan-landed-in-j-on-beach-2017.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Infinispan+%28Infinispan%29" rel="nofollow">J On The Beach 2017</a></p></li><li><p><a class="jive-link-external-small" href="http://www.schabell.org/2017/05/openstack-summit-boston-2017-impressions-day-one.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+schabell%2Fjboss+%28Eric+D.Schabell-+JBoss%29" rel="nofollow">OpenStack Summit 2017</a></p></li></ul></div></div></div><div class="sect1"><h2></h2><h2>Blogs</h2><div class="sectionbody"><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>Speaking of Blogs, a number of blogs have been released this week talking about OpenShift, APIMAN, Hibernate, Infinispan and testing!</p></div><div class="ulist"><ul><li><p><a class="jive-link-external-small" href="http://www.schabell.org/2017/05/cloud-happiness-how-to-get-openshift.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+schabell%2Fjboss+%28Eric+D.Schabell-+JBoss%29" rel="nofollow">Cloud Happiness - How To Get OpenShift Container Platform v3.5 Installed in Minutes</a></p></li><li><p><a class="jive-link-external-small" href="http://in.relation.to/2017/05/16/hibernate-community-newsletter-2017-10/" rel="nofollow">Hibernate Community Newsletter 10/2017</a></p></li><li><p><a class="jive-link-external-small" href="http://www.apiman.io/blog/apiman/gateway/performance/2017/05/15/tuning-servlet-gateway.html" rel="nofollow">Performance tuning the Apiman Gateway (WildFly, EAP, Tomcat)</a></p></li><li><p><a class="jive-link-external-small" href="http://blog.infinispan.org/2017/05/nosql-unit-supports-infinispan-900final.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Infinispan+%28Infinispan%29" rel="nofollow">NoSQL Unit supports Infinispan 9.0.0.Final</a></p></li><li><p><a class="jive-link-external-small" href="http://corinnekrych.blogspot.com/2017/05/test-your-angular-component.html" rel="nofollow">Test your Angular component</a></p></li></ul></div></div></div></div></div><!-- [DocumentBodyEnd:ab612d1a-cfea-4bb1-a0f5-77a5eacbc620] -->]]></summary>
+	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:ab612d1a-cfea-4bb1-a0f5-77a5eacbc620] --&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;Another week has come to a close. It&amp;rsquo;s been a great week, full of blogs, releases and travel recaps within the JBoss Community! Here&amp;rsquo;s a quick recap of what has happened this week.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h2&gt;Red Hat Summit Interview with Sebastien Blanc&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;You all heard about Red Hat Summit 2017, probably multiple times. While I was there, I was able to get some time with some of our developers and do some quick interviews! These interviews will be highlighted here on the Weekly Editorial. The first one I&amp;rsquo;d like to highlight is my interview with Sebastien Blanc, aka Sebi. Sebi has contributed to AeroGear and is currently working on Keycloak, a security solution. In this interview we talk about what Keycloak is, how I would use it, and why it&amp;rsquo;s important.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;Releases&lt;/h2&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;A number of releases have happened over the past week!&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;Arquillian&lt;/h3&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The Arquillian team is really churning out the releases, with five releases this past week!&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://arquillian.org/blog/2017/05/16/arquillian-cube-1-3-1/" rel="nofollow" target="_blank"&gt;Arquillian Cube 1.3.1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://arquillian.org/blog/2017/05/16/arquillian-cube-1-3-2/" rel="nofollow" target="_blank"&gt;Arquillian Cube 1.3.2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://arquillian.org/blog/2017/05/19/arquillian-cube-1-4-0/" rel="nofollow" target="_blank"&gt;Arquillian Cube 1.4.0&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://arquillian.org/blog/2017/05/18/resolver-3-0-0-beta-2/" rel="nofollow" target="_blank"&gt;ShrinkWrap Resolver 3.0.0-beta-2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://arquillian.org/blog/2017/05/18/arquillian-spacelift-1-0-1/" rel="nofollow" target="_blank"&gt;Arquillian Spacelift 1.0.1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;Hibernate&lt;/h3&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a href="http://in.relation.to/2017/05/16/hibernate-validator-600-beta1-out/" rel="nofollow" target="_blank"&gt;Hibernate Validator 6.0.0.Beta1 with Bean Validation 2.0.0.Beta1 support&lt;/a&gt; was released this past week! It requires Java 8. Go grab it and play around with some of the new features and validations in this release!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;APIMAN&lt;/h3&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The &lt;a href="http://apiman.io/blog/apiman/release/2017/05/25/release-1.3.html" rel="nofollow" target="_blank"&gt;APIMAN 1.3.0.Final&lt;/a&gt; release came out early this week and includes a number of bug fixes, improved documentation, a headless registry and the Vert.x Gateway has been polished and is officially released!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;CDI 2.0&lt;/h3&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Fast on the heals of the JCP Ballot finishing, we can officially announce that CDI 2.0 is finished! You can also start playing with it using Weld 3.0.0, which is detailed in the &lt;a href="http://www.cdi-spec.org/news/2017/05/15/CDI_2_is_released/" rel="nofollow" target="_blank"&gt;release announcement&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;Immutant&lt;/h3&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The Immutant team has released &lt;a href="http://immutant.org/news/2017/05/18/announcing-2-1-7/" rel="nofollow" target="_blank"&gt;Immuntant 2.1.7&lt;/a&gt; which includes some updates to Undertow and Ring. It also fixes some issues with applications not being able to properly respond to HEAD request.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h2&gt;Travels&lt;/h2&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Because Red Hat Summit is over doesn&amp;rsquo;t mean travels are over! Our developers and community have been around ta many other conferences over the past week or two. Check out the recaps of these conferences in the various blogs:&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://www.open4dev.com/journal/2017/5/18/microsoft-build-2017-open-source-and-interoperability.html" rel="nofollow" target="_blank"&gt;Microsoft Build 2017&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://corinnekrych.blogspot.com/2017/05/rivieradev-2017-what-great-edition.html" rel="nofollow" target="_blank"&gt;RivieraDev 2017&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://blog.infinispan.org/2017/05/infinispan-landed-in-j-on-beach-2017.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+Infinispan+%28Infinispan%29" rel="nofollow" target="_blank"&gt;J On The Beach 2017&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://www.schabell.org/2017/05/openstack-summit-boston-2017-impressions-day-one.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+schabell%2Fjboss+%28Eric+D.Schabell-+JBoss%29" rel="nofollow" target="_blank"&gt;OpenStack Summit 2017&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h2&gt;Blogs&lt;/h2&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Speaking of Blogs, a number of blogs have been released this week talking about OpenShift, APIMAN, Hibernate, Infinispan and testing!&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://www.schabell.org/2017/05/cloud-happiness-how-to-get-openshift.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+schabell%2Fjboss+%28Eric+D.Schabell-+JBoss%29" rel="nofollow" target="_blank"&gt;Cloud Happiness - How To Get OpenShift Container Platform v3.5 Installed in Minutes&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://in.relation.to/2017/05/16/hibernate-community-newsletter-2017-10/" rel="nofollow" target="_blank"&gt;Hibernate Community Newsletter 10/2017&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://www.apiman.io/blog/apiman/gateway/performance/2017/05/15/tuning-servlet-gateway.html" rel="nofollow" target="_blank"&gt;Performance tuning the Apiman Gateway (WildFly, EAP, Tomcat)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://blog.infinispan.org/2017/05/nosql-unit-supports-infinispan-900final.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+Infinispan+%28Infinispan%29" rel="nofollow" target="_blank"&gt;NoSQL Unit supports Infinispan 9.0.0.Final&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://corinnekrych.blogspot.com/2017/05/test-your-angular-component.html" rel="nofollow" target="_blank"&gt;Test your Angular component&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:ab612d1a-cfea-4bb1-a0f5-77a5eacbc620] --&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/9oXWRO-q348" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-05-22T14:48:38+00:00</updated>
+	<author><name>Jason Porter</name></author>
+	<source>
+		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
+		<title>Weekly Editorial</title></source>
+
+	<category term="cdi" />
+
+	<category term="hibernate-validator" />
+
+	<category term="immutant" />
+
+	<category term="apiman" />
+
+	<category term="arquiillian" />
+
+	<category term="arquillian-cube" />
+
+	<category term="cdi 2.0" />
+
+
+<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/05/19/this-week-in-jboss-19-may-2017</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/10.2.0.rpm-installation.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/dB10UJJnwPs/10.2.0.rpm-installation.html" rel="alternate" type="text/html" />
+	<title>Installing Red Hat Developer Studio 10.2.0.GA through RPM</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>With the release of <a href="https://tools.jboss.org/downloads/devstudio/neon/10.2.0.GA.html">Red Hat JBoss Developer Studio 10.2</a>, it is now possible to install Red Hat JBoss Developer Studio as an RPM.
+      It is available as a tech preview. The purpose of this article is to describe the steps you should follow in order to install Red Hat JBoss Developer Studio.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="red-hat-software-collections"><a class="anchor" href="#red-hat-software-collections"></a>Red Hat Software Collections</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>JBoss Developer Studio RPM relies on Red Hat Software Collections. You don’t need to install Red Hat Software Collections but you need to enable
+      the Red Hat Software Collections repositories before you start the installation of the Red Hat JBoss Developer Studio.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="enabling-the-red-hat-software-collections-base-repository"><a class="anchor" href="#enabling-the-red-hat-software-collections-base-repository"></a>Enabling the Red Hat Software Collections base repository</h3>
+      <div class="paragraph">
+      <p>The identifier for the repository is <strong>rhel-server-rhscl-7-rpms</strong> on Red Hat Enterprise Linux Server and <strong>rhel-workstation-rhscl-7-rpms</strong> on Red Hat Enterprise Linux Workstation.</p>
+      </div>
+      <div class="paragraph">
+      <p>The command to enable the repository on Red Hat Enterprise Linux Server is:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>sudo subscription-manager repos --enable rhel-server-rhscl-7-rpms</code></pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>The command to enable the repository on Red Hat Enterprise Linux Workstation is:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>sudo subscription-manager repos --enable rhel-workstation-rhscl-7-rpms</code></pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>For more information, please refer to the <a href="https://access.redhat.com/documentation/en/red-hat-software-collections/?version=2/">Red Hat Software Collections</a> documentation.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="jboss-developer-studio-repository"><a class="anchor" href="#jboss-developer-studio-repository"></a>JBoss Developer Studio repository</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>As this is a tech preview, you need to manually configure the JBoss Developer Studio repository.</p>
+      </div>
+      <div class="paragraph">
+      <p>Create a file <strong>/etc/yum.repos.d/rh-eclipse46-devstudio.repo</strong> with the following content:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>[rh-eclipse46-devstudio-stable-10.x]
+      name=rh-eclipse46-devstudio-stable-10.x
+      baseurl=https://devstudio.redhat.com/static/10.0/stable/rpms/x86_64/
+      enabled=1
+      gpgkey=https://www.redhat.com/security/data/a5787476.txt
+      gpgcheck=1
+      upgrade_requirements_on_install=1
+      metadata_expire=24h</code></pre>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="install-red-hat-jboss-developer-studio"><a class="anchor" href="#install-red-hat-jboss-developer-studio"></a>Install Red Hat JBoss Developer Studio</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>You’re now ready to install Red Hat JBoss Developer Studio through RPM.</p>
+      </div>
+      <div class="paragraph">
+      <p>Enter the following command:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>sudo yum install rh-eclipse46-devstudio</code></pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Answer &apos;y&apos; when transaction summary is ready to continue installation.</p>
+      </div>
+      <div class="paragraph">
+      <p>Answer &apos;y&apos; one more time when you see request to import GPG public key</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>Public key for rh-eclipse46-devstudio .rpm is not installed
+      Retrieving key from https://www.redhat.com/security/data/a5787476.txt
+      Importing GPG key 0xA5787476:
+       Userid     : &quot;Red Hat, Inc. (development key) &lt;security@redhat.com&gt;&quot;
+       Fingerprint: 2d6d 2858 5549 e02f 2194 3840 08b8 71e6 a578 7476
+       From       : https://www.redhat.com/security/data/a5787476.txt
+      Is this ok [y/N]:</code></pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>After all required dependencies have been downloaded and installed, Red Hat JBoss Developer Studio is available on your
+      system through the standard update channel !!!</p>
+      </div>
+      <div class="paragraph">
+      <p>You should see messages like the following:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/20161212-rpm/rh-eclipse46-devstudio.log.png" alt="rh eclipse46 devstudio.log" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="launch-red-hat-jboss-developer-studio"><a class="anchor" href="#launch-red-hat-jboss-developer-studio"></a>Launch Red Hat JBoss Developer Studio</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>From the system menu, mouse over the <strong>Programming</strong> menu, and the <strong>Red Hat Eclipse</strong> menu item will appear.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/20161212-rpm/programming-menu.png" alt="programming menu" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Select this menu item and Red Hat JBoss Developer Studio user interface will appear then:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/20161212-rpm/devstudio.png" alt="devstudio" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Enjoy!</p>
+      </div>
+      <div class="paragraph">
+      <p>Jeff Maury</p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;With the release of &lt;a href="https://tools.jboss.org/downloads/devstudio/neon/10.2.0.GA.html" target="_blank"&gt;Red Hat JBoss Developer Studio 10.2&lt;/a&gt;, it is now possible to install Red Hat JBoss Developer Studio as an RPM.
+      It is available as a tech preview. The purpose of this article is to describe the steps you should follow in order to install Red Hat JBoss Developer Studio.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#red-hat-software-collections" target="_blank"&gt;&lt;/a&gt;Red Hat Software Collections&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Developer Studio RPM relies on Red Hat Software Collections. You don&amp;rsquo;t need to install Red Hat Software Collections but you need to enable
+      the Red Hat Software Collections repositories before you start the installation of the Red Hat JBoss Developer Studio.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#enabling-the-red-hat-software-collections-base-repository" target="_blank"&gt;&lt;/a&gt;Enabling the Red Hat Software Collections base repository&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;The identifier for the repository is &lt;strong&gt;rhel-server-rhscl-7-rpms&lt;/strong&gt; on Red Hat Enterprise Linux Server and &lt;strong&gt;rhel-workstation-rhscl-7-rpms&lt;/strong&gt; on Red Hat Enterprise Linux Workstation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The command to enable the repository on Red Hat Enterprise Linux Server is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;sudo subscription-manager repos --enable rhel-server-rhscl-7-rpms&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The command to enable the repository on Red Hat Enterprise Linux Workstation is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;sudo subscription-manager repos --enable rhel-workstation-rhscl-7-rpms&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For more information, please refer to the &lt;a href="https://access.redhat.com/documentation/en/red-hat-software-collections/?version=2/" target="_blank"&gt;Red Hat Software Collections&lt;/a&gt; documentation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#jboss-developer-studio-repository" target="_blank"&gt;&lt;/a&gt;JBoss Developer Studio repository&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As this is a tech preview, you need to manually configure the JBoss Developer Studio repository.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Create a file &lt;strong&gt;/etc/yum.repos.d/rh-eclipse46-devstudio.repo&lt;/strong&gt; with the following content:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;[rh-eclipse46-devstudio-stable-10.x]
+      name=rh-eclipse46-devstudio-stable-10.x
+      baseurl=https://devstudio.redhat.com/static/10.0/stable/rpms/x86_64/
+      enabled=1
+      gpgkey=https://www.redhat.com/security/data/a5787476.txt
+      gpgcheck=1
+      upgrade_requirements_on_install=1
+      metadata_expire=24h&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#install-red-hat-jboss-developer-studio" target="_blank"&gt;&lt;/a&gt;Install Red Hat JBoss Developer Studio&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You&amp;rsquo;re now ready to install Red Hat JBoss Developer Studio through RPM.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enter the following command:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;sudo yum install rh-eclipse46-devstudio&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Answer 'y' when transaction summary is ready to continue installation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Answer 'y' one more time when you see request to import GPG public key&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;Public key for rh-eclipse46-devstudio .rpm is not installed
+      Retrieving key from https://www.redhat.com/security/data/a5787476.txt
+      Importing GPG key 0xA5787476:
+       Userid     : "Red Hat, Inc. (development key) &amp;lt;security@redhat.com&amp;gt;"
+       Fingerprint: 2d6d 2858 5549 e02f 2194 3840 08b8 71e6 a578 7476
+       From       : https://www.redhat.com/security/data/a5787476.txt
+      Is this ok [y/N]:&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;After all required dependencies have been downloaded and installed, Red Hat JBoss Developer Studio is available on your
+      system through the standard update channel !!!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You should see messages like the following:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/20161212-rpm/rh-eclipse46-devstudio.log.png" alt="rh eclipse46 devstudio.log"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#launch-red-hat-jboss-developer-studio" target="_blank"&gt;&lt;/a&gt;Launch Red Hat JBoss Developer Studio&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;From the system menu, mouse over the &lt;strong&gt;Programming&lt;/strong&gt; menu, and the &lt;strong&gt;Red Hat Eclipse&lt;/strong&gt; menu item will appear.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/20161212-rpm/programming-menu.png" alt="programming menu"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Select this menu item and Red Hat JBoss Developer Studio user interface will appear then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/20161212-rpm/devstudio.png" alt="devstudio"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/dB10UJJnwPs" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-05-19T12:23:55+00:00</updated>
+	<author><name>jeffmaury</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="tech-preview" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+	<category term="rpm" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/10.2.0.rpm-installation.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/05/12/this-week-in-jboss-12th-may-2016-cdi-spec-and-devtool-experience</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/roENQ5Qw_g0/this-week-in-jboss-12th-may-2016-cdi-spec-and-devtool-experience" rel="alternate" type="text/html" />
+	<title>This week in JBoss (12th May 2017): Cloud Native Development, Polyglot runtimes &amp; CDI 2.0</title>
+	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:421f49e6-ec9e-4f14-935a-2e38fcb228e0] --><div class="jive-rendered-content"><p style="font-size: 13.3333px;">Another week, another chance to discover all the amazing technology which is designed by the JBoss engineers. The Red Hat summit is over but there are still plenty of news to share with you as you will discover hereafter.</p><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><h2>Cloud Native Development</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>During the Red Hat summit in Boston, the <a class="jive-link-external-small" href="http://openshift.io/" rel="nofollow">OpenShift.io </a>platform has been announced and <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/05/02/announcing-red-hat-openshift-io/" rel="nofollow">presented</a>. This Saas platform which is a Web Development Cloud platform offers the possibility to you developers to plan/create/manage your Java Projects using the <a class="jive-link-external-small" href="https://eclipse.org/che/" rel="nofollow">Eclipse Che</a> - Nex Gen IDE part of that platform, build and package the project created as docker images deployed within OpenShift Online without no pain using Dev Tools as <a class="jive-link-external-small" href="http://maven.fabric8.io/" rel="nofollow">Fabric8 Maven Plugin</a>. This platform is unique as it offers many different user experiences (CRUD, Health Check, HTTP Api, Externalization of the configurations, ...) and runtimes (WildFly Swarm, Eclipse Vert.x, Spring Boot, ...) to accelerate your development lifecycle. You can also create Jenkins pipeline to test, build or promote your project between environments as well as human approval steps. Pipeline definitions are written using a Groovy DSL providing huge flexibility in how you assemble the pieces into of pipelines.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-6088-95820/osio-1.png"><img alt="osio-1.png" class="image-2 jive-image" height="150" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6088-95820/osio-1.png" style="height: auto;" width="327"/></a><a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-6088-95821/osio-2.png"><img alt="osio-2.png" class="image-3 jive-image" height="150" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6088-95821/osio-2.png" style="height: auto;" width="303"/></a><a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-6088-95912/osio-3.png"><img alt="osio-3.png" class="image-4 jive-image" height="150" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6088-95912/osio-3.png" style="height: auto;" width="304"/></a></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>If you&#8217;d like to see OpenShift.io in action take a look at the introductory <a class="jive-link-external-small" href="https://vimeo.com/215402513/02867b4aea" rel="nofollow">video</a>.</p><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><h2>Polyglot language &amp; poly runtimes</h2><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><p style="font-size: 13.3333px;"><span style="font-size: 13.3333px;">The development of the new modern applications has completely change since the advent of the </span><a class="jive-link-external-small" href="https://martinfowler.com/articles/microservices.html" rel="nofollow">Microservices Architecture Design pattern</a><span style="font-size: 13.3333px;"> that many architects have embraced to design and develop their solutions. Such a project doesn't rely anymore to one technology specifically, one framework, one runtime but are designed as a combination of different frameworks (JEE, Spring, Rx or ReactiveJava, ...), languages (Java, JavaScript, PHP, ...) running top of different runtimes which are selected according to their CPU/memory footprint but also modules/features they allow to package "a la carte".</span></p><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><p style="font-size: 13.3333px;"><span style="font-size: 13.3333px;">This is the </span><span style="font-size: 13.3333px;">r</span><span style="font-size: 13.3333px;">e</span><span style="font-size: 13.3333px;">ason why </span><a class="jive-link-external-small" href="https://launch.openshift.io/" rel="nofollow">launch.openshift.io</a><span style="font-size: 13.3333px;"> has been created in order to give you the opportunity to bootstrap your project's creation base on one of the runtimes supported; WildFly Swarm, Spring Boot and Eclipse Vert.x and using one of the real user experiences proposed; REST endpoint, Persistence using JDBC/JPA, Externalize the configuration/parameters of your application or check the health of your microservice, ...</span></p><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><p style="font-size: 13.3333px;">The project generated could be downloaded as a zip and used in your favorite IDE or added to your Github organization and imported in OpenShift as a new project. Like the Saas OpenShift.io platform, jenkins and CI/CD paradigm is enable out of the box.</p><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><p style="font-size: 13.3333px;"><span style="font-size: 13.3333px;"><a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-6088-95921/launch-1.png"><img alt="launch-1.png" class="image-5 jive-image" height="258" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6088-95921/launch-1.png" style="height: auto;" width="400"/></a></span></p><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><h2>CDI 2.0 spec - final ballot approved</h2><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><p><span style="line-height: 1.5em;">As reported this week by Antoine Sabot-Durand, the Java Specification Request #365 which refers to the design of the specification about the "Contexts and Dependency Injection for JavaTM 2.0" has been approved unanimously by the members of the JCP Executive <a class="jive-link-external-small" href="https://jcp.org/en/jsr/results?id=5995" rel="nofollow">commitee</a>. The goal of this new spec is to deliver a major update to CDI 1.1 but focused on the following features: d</span>efine the behavior of CDI outside of a Java EE container &amp; make CDI more modular to help other Java EE specs to better integrate with it. So, this spec will allow much wider adoption of CDI in the Java world, and provide a great stepping stone between Java SE, a servlet container, OSGi and a full Java EE server and will certainly simplify the development of the Microservices !</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><span style="line-height: 1.5em;">For those which are interested to discover the document of the specification, you will find the information <a class="jive-link-external-small" href="https://jcp.org/en/jsr/detail?id=365" rel="nofollow">here</a></span></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Releases, release, releases ....</h2><ul><li><a class="jive-link-external-small" href="https://planet.jboss.org/post/apache_camel_2_19_released_whats_new" rel="nofollow">Apache Camel 2.19</a> is out</li><li><a class="jive-link-external-small" href="https://planet.jboss.org/post/version_1_3_0_final_of_apiman_is_released" rel="nofollow">Apiman 1.3.0</a> final version released</li><li><a class="jive-link-external-small" href="https://planet.jboss.org/post/teiid_9_2_3_released" rel="nofollow">Teiid 9.2.3</a> released</li><li><a class="jive-link-external-small" href="https://planet.jboss.org/post/hibernate_search_5_8_0_beta2_is_out" rel="nofollow">Hibernate Search 5.8.0</a> is out</li></ul><p style="min-height: 8pt; padding: 0px; font-size: 13.3333px;">&#160;</p><p style="font-size: 13.3333px;">I hope this week's editorial has provided you with something of interest, please join us again next week when we will bring you more news from JBoss and the JBoss Communities.</p></div><!-- [DocumentBodyEnd:421f49e6-ec9e-4f14-935a-2e38fcb228e0] -->]]></summary>
+	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:421f49e6-ec9e-4f14-935a-2e38fcb228e0] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;Another week, another chance to discover all the amazing technology which is designed by the JBoss engineers. The Red Hat summit is over but there are still plenty of news to share with you as you will discover hereafter.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Cloud Native Development&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;During the Red Hat summit in Boston, the &lt;a href="http://openshift.io/" rel="nofollow" target="_blank"&gt;OpenShift.io &lt;/a&gt;platform has been announced and &lt;a href="https://developers.redhat.com/blog/2017/05/02/announcing-red-hat-openshift-io/" rel="nofollow" target="_blank"&gt;presented&lt;/a&gt;. This Saas platform which is a Web Development Cloud platform offers the possibility to you developers to plan/create/manage your Java Projects using the &lt;a href="https://eclipse.org/che/" rel="nofollow" target="_blank"&gt;Eclipse Che&lt;/a&gt; - Nex Gen IDE part of that platform, build and package the project created as docker images deployed within OpenShift Online without no pain using Dev Tools as &lt;a href="http://maven.fabric8.io/" rel="nofollow" target="_blank"&gt;Fabric8 Maven Plugin&lt;/a&gt;. This platform is unique as it offers many different user experiences (CRUD, Health Check, HTTP Api, Externalization of the configurations, ...) and runtimes (WildFly Swarm, Eclipse Vert.x, Spring Boot, ...) to accelerate your development lifecycle. You can also create Jenkins pipeline to test, build or promote your project between environments as well as human approval steps. Pipeline definitions are written using a Groovy DSL providing huge flexibility in how you assemble the pieces into of pipelines.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-6088-95820/osio-1.png" target="_blank"&gt;&lt;img alt="osio-1.png" height="150" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6088-95820/osio-1.png" width="327"&gt;&lt;/a&gt;&lt;a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-6088-95821/osio-2.png" target="_blank"&gt;&lt;img alt="osio-2.png" height="150" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6088-95821/osio-2.png" width="303"&gt;&lt;/a&gt;&lt;a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-6088-95912/osio-3.png" target="_blank"&gt;&lt;img alt="osio-3.png" height="150" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6088-95912/osio-3.png" width="304"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;If you&amp;rsquo;d like to see OpenShift.io in action take a look at the introductory &lt;a href="https://vimeo.com/215402513/02867b4aea" rel="nofollow" target="_blank"&gt;video&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Polyglot language &amp;amp; poly runtimes&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;The development of the new modern applications has completely change since the advent of the &lt;/span&gt;&lt;a href="https://martinfowler.com/articles/microservices.html" rel="nofollow" target="_blank"&gt;Microservices Architecture Design pattern&lt;/a&gt;&lt;span&gt; that many architects have embraced to design and develop their solutions. Such a project doesn't rely anymore to one technology specifically, one framework, one runtime but are designed as a combination of different frameworks (JEE, Spring, Rx or ReactiveJava, ...), languages (Java, JavaScript, PHP, ...) running top of different runtimes which are selected according to their CPU/memory footprint but also modules/features they allow to package "a la carte".&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;This is the &lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;ason why &lt;/span&gt;&lt;a href="https://launch.openshift.io/" rel="nofollow" target="_blank"&gt;launch.openshift.io&lt;/a&gt;&lt;span&gt; has been created in order to give you the opportunity to bootstrap your project's creation base on one of the runtimes supported; WildFly Swarm, Spring Boot and Eclipse Vert.x and using one of the real user experiences proposed; REST endpoint, Persistence using JDBC/JPA, Externalize the configuration/parameters of your application or check the health of your microservice, ...&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The project generated could be downloaded as a zip and used in your favorite IDE or added to your Github organization and imported in OpenShift as a new project. Like the Saas OpenShift.io platform, jenkins and CI/CD paradigm is enable out of the box.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-6088-95921/launch-1.png" target="_blank"&gt;&lt;img alt="launch-1.png" height="258" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6088-95921/launch-1.png" width="400"&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;CDI 2.0 spec - final ballot approved&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;As reported this week by Antoine Sabot-Durand, the Java Specification Request #365 which refers to the design of the specification about the "Contexts and Dependency Injection for JavaTM 2.0" has been approved unanimously by the members of the JCP Executive &lt;a href="https://jcp.org/en/jsr/results?id=5995" rel="nofollow" target="_blank"&gt;commitee&lt;/a&gt;. The goal of this new spec is to deliver a major update to CDI 1.1 but focused on the following features: d&lt;/span&gt;efine the behavior of CDI outside of a Java EE container &amp;amp; make CDI more modular to help other Java EE specs to better integrate with it. So, this spec will allow much wider adoption of CDI in the Java world, and provide a great stepping stone between Java SE, a servlet container, OSGi and a full Java EE server and will certainly simplify the development of the Microservices !&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;For those which are interested to discover the document of the specification, you will find the information &lt;a href="https://jcp.org/en/jsr/detail?id=365" rel="nofollow" target="_blank"&gt;here&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Releases, release, releases ....&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://planet.jboss.org/post/apache_camel_2_19_released_whats_new" rel="nofollow" target="_blank"&gt;Apache Camel 2.19&lt;/a&gt; is out&lt;/li&gt;&lt;li&gt;&lt;a href="https://planet.jboss.org/post/version_1_3_0_final_of_apiman_is_released" rel="nofollow" target="_blank"&gt;Apiman 1.3.0&lt;/a&gt; final version released&lt;/li&gt;&lt;li&gt;&lt;a href="https://planet.jboss.org/post/teiid_9_2_3_released" rel="nofollow" target="_blank"&gt;Teiid 9.2.3&lt;/a&gt; released&lt;/li&gt;&lt;li&gt;&lt;a href="https://planet.jboss.org/post/hibernate_search_5_8_0_beta2_is_out" rel="nofollow" target="_blank"&gt;Hibernate Search 5.8.0&lt;/a&gt; is out&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;I hope this week's editorial has provided you with something of interest, please join us again next week when we will bring you more news from JBoss and the JBoss Communities.&lt;/p&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:421f49e6-ec9e-4f14-935a-2e38fcb228e0] --&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/roENQ5Qw_g0" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-05-14T17:23:15+00:00</updated>
+	<author><name>Charles Moulliard</name></author>
+	<source>
+		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
+		<title>Weekly Editorial</title></source>
+
+	<category term="teiid" />
+
+	<category term="cloud" />
+
+	<category term="camel" />
+
+	<category term="openshift" />
+
+	<category term="jenkins" />
+
+	<category term="pipeline" />
+
+	<category term="apiman" />
+
+	<category term="cdi 2.0" />
+
+	<category term="ci-cd" />
+
+	<category term="devtools" />
+
+
+<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/05/12/this-week-in-jboss-12th-may-2016-cdi-spec-and-devtool-experience</feedburner:origLink></entry>
+
+
+</feed><!-- vim:ft=xml
+	  -->

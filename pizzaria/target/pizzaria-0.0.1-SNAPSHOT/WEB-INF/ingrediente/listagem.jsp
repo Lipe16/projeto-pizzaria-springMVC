@@ -1,3 +1,10 @@
+<!-- 
+BIBLIOTECAS
+C - JSTL (PRA AJUDAR A IMPLEMENTAR CÓDIGO JAVA  EM FORMA HTML)
+FMT - JSTL DE FORMATAÇÃO
+SPRING - SPRING
+FORM - FORMULARIOS SPRING
+ -->
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
@@ -9,7 +16,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${titulo}</title>
+		<!-- variavel criada com jstl-->
 		<c:set var="path" value="${pageContext.request.contextPath}" scope="request"/>
+		
 		<style type="text/css">
 			@IMPORT url("${path}/static/bootstrap/css/bootstrap.min.css");
 			@IMPORT url("${path}/static/bootstrap/css/bootstrap-theme.min.css");

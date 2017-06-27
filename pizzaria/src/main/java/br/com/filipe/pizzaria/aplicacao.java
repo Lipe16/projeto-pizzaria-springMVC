@@ -34,17 +34,21 @@ public class aplicacao implements WebApplicationInitializer{
 		// listner do spring
 		servletContext.addListener(new ContextLoaderListener(webApplicationContext));
 		
+		
+		//filtro para ser usado com metodo que vê a necessidade da view na hora de extrair informações no BD
 		FilterRegistration.Dynamic filter = servletContext.addFilter("openEntityManagerFilter", buildOpenEntityManagerFilter());
 		filter.addMappingForUrlPatterns(getDispatcherTypes(), false, "/app/*");
 		
 	}
 	
+	//metodo analiza o que vai precisar ser extraido no BD com base nas necessidades da view
 	private OpenEntityManagerInViewFilter buildOpenEntityManagerFilter() {
 		OpenEntityManagerInViewFilter openEntityManagerInViewFilter = new OpenEntityManagerInViewFilter();
 		openEntityManagerInViewFilter.setEntityManagerFactoryBeanName("entityManagerFactory");
 		return openEntityManagerInViewFilter;
 	}
 	
+	//mostra qual tipo de requisições irão passar pelo filtro
 	private EnumSet<DispatcherType> getDispatcherTypes() {
 		return EnumSet.of(DispatcherType.REQUEST, DispatcherType.FORWARD, DispatcherType.INCLUDE, DispatcherType.ASYNC);
 	}

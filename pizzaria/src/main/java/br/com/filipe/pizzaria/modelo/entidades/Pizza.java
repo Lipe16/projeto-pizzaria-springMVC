@@ -20,7 +20,7 @@ public class Pizza {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 	@NotNull
 	@NotEmpty
@@ -30,7 +30,7 @@ public class Pizza {
 	private Double preco;
 
 	@NotNull
-	@Enumerated(EnumType.STRING)
+	@Enumerated(EnumType.STRING)//hibernate salve isso como string e não como integer que seria o padrão
 	private CategoriaDePizza categoria;
 
 	@ManyToMany
@@ -89,6 +89,8 @@ public class Pizza {
 		this.ingredientes = ingredientes;
 	}
 
+	
+	//hashCod com nome, categoria e id
 
 	@Override
 	public int hashCode() {

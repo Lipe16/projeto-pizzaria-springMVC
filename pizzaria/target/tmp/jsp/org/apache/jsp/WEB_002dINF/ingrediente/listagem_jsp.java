@@ -54,6 +54,13 @@ public final class listagem_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
+      out.write("<!-- \r\n");
+      out.write("BIBLIOTECAS\r\n");
+      out.write("C - JSTL (PRA AJUDAR A IMPLEMENTAR CÓDIGO JAVA  EM FORMA HTML)\r\n");
+      out.write("FMT - JSTL DE FORMATAÇÃO\r\n");
+      out.write("SPRING - SPRING\r\n");
+      out.write("FORM - FORMULARIOS SPRING\r\n");
+      out.write(" -->\r\n");
       out.write("\r\n");
       out.write("\r\n");
       out.write("\r\n");
@@ -67,10 +74,12 @@ public final class listagem_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<title>");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${titulo}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("</title>\r\n");
+      out.write("\t\t<!-- variavel criada com jstl-->\r\n");
       out.write("\t\t");
       if (_jspx_meth_c_set_0(_jspx_page_context))
         return;
       out.write("\r\n");
+      out.write("\t\t\r\n");
       out.write("\t\t<style type=\"text/css\">\r\n");
       out.write("\t\t\t@IMPORT url(\"");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${path}", java.lang.String.class, (PageContext)_jspx_page_context, null));
