@@ -37,8 +37,8 @@ FORM - FORMULARIOS SPRING
 		<div class="alert alert-info">${mensagemInfo}</div>
 	</div>
 </c:if>
-
-	<section id="secao-pizzas" class"container">
+	<jsp:include page="../menu.jsp" />
+	<section id="secao-pizzas" class="container">
 		<jsp:include page="tabela-pizza.jsp" />
 	</section>
 	

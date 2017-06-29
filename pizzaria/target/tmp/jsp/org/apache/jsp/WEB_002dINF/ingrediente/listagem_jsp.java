@@ -107,8 +107,11 @@ public final class listagem_jsp extends org.apache.jasper.runtime.HttpJspBase
       if (_jspx_meth_c_if_1(_jspx_page_context))
         return;
       out.write("\r\n");
+      out.write("\t\r\n");
+      out.write("\t");
+      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "../menu.jsp", out, false);
       out.write("\r\n");
-      out.write("\t<section id=\"secao-ingredientes\" class\"container\">\r\n");
+      out.write("\t<section id=\"secao-ingredientes\" class=\"container\">\r\n");
       out.write("\t\t");
       org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "tabela-ingrediente.jsp", out, false);
       out.write("\r\n");
