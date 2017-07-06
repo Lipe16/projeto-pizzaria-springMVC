@@ -74,7 +74,10 @@ public final class modal_002dpizza_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("\t\t        <h4 class=\"modal-title\" id=\"myModalLabel\">Informações da Pizza</h4>\r\n");
       out.write("\t\t      </div>\r\n");
       out.write("\t\t      <div class=\"modal-body\">\r\n");
-      out.write("\t\t      \t\t\r\n");
+      out.write("\t\t      \r\n");
+      out.write("\t\t      \t\t<input type=\"hidden\" id=\"_csrf\" name=\"_csrf\" value=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${_csrf.token}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\">\r\n");
       out.write("\t\t      \t\t<input type=\"hidden\" id=\"id\" name=\"id\" value=\"0\"/>\r\n");
       out.write("\t\t      \r\n");
       out.write("\t\t\t        <label for=\"nome\">Nome: </label>\r\n");

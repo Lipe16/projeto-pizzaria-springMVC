@@ -80,17 +80,22 @@ public final class modal_002dingrediente_jsp extends org.apache.jasper.runtime.H
       out.write("\t\t\t\t\t\tingrediente</h4>\r\n");
       out.write("\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t<div class=\"modal-body\">\r\n");
+      out.write("\t\t\t\t\t<input type=\"hidden\" id=\"_csrf\" name=\"_csrf\" value=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${_csrf.token}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\">\r\n");
+      out.write("\t\t\t\t\t<input type=\"hidden\" id=\"id\" name=\"id\" value=\"0\" />\r\n");
       out.write("\r\n");
       out.write("\r\n");
-      out.write("\r\n");
-      out.write("\t\t\t\t\t<label for=\"nome\">Nome: </label> <input id=\"nome\" name=\"nome\"\r\n");
-      out.write("\t\t\t\t\t\tclass=\"form-control\"> <label for=\"categoria\">Categoria:\r\n");
-      out.write("\t\t\t\t\t</label> <select id=\"categoria\" name=\"categoria\" class=\"form-control\">\r\n");
+      out.write("\t\t\t\t\t<label for=\"nome\">Nome: </label> \r\n");
+      out.write("\t\t\t\t\t<input id=\"nome\" name=\"nome\" class=\"form-control\"> \r\n");
+      out.write("\t\t\t\t\t<label for=\"categoria\">Categoria:</label> \r\n");
+      out.write("\t\t\t\t\t<select id=\"categoria\" name=\"categoria\" class=\"form-control\">\r\n");
       out.write("\t\t\t\t\t\t");
       if (_jspx_meth_c_forEach_0(_jspx_page_context))
         return;
       out.write("\r\n");
-      out.write("\t\t\t\t\t</select> <input type=\"hidden\" id=\"id\" name=\"id\" value=\"0\" />\r\n");
+      out.write("\t\t\t\t\t</select> \r\n");
+      out.write("\r\n");
       out.write("\r\n");
       out.write("\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t<div class=\"modal-footer\">\r\n");

@@ -21,7 +21,8 @@ FORM - FORMULARIOS SPRING
 		        <h4 class="modal-title" id="myModalLabel">Informações da Pizza</h4>
 		      </div>
 		      <div class="modal-body">
-		      		
+		      
+		      		<input type="hidden" id="_csrf" name="_csrf" value="${_csrf.token}">
 		      		<input type="hidden" id="id" name="id" value="0"/>
 		      
 			        <label for="nome">Nome: </label>

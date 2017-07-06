@@ -54,12 +54,14 @@ var aplicarListners = function(){
 		
 		var id = $(this).parents('tr').data('id');
 		
+		var csrf = $('#_csrf').val();
+		
 		var ingredientes = $('#quantidade-pizzas').text();
 
 	    $.ajax({
 	    	        url: "pizzas/"+id,
 	    	        type: "DELETE",
-	    	       
+	    	        headers:{'X-CSRF-TOKEN':csrf},
 	    	        success: function(result){
 	    	            $('tr[data-id="'+id+'"]').remove();
 	    	            $('#quantidade-ingredientes').text(ingredientes - 1);

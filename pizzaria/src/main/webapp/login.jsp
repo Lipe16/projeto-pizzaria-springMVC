@@ -33,16 +33,27 @@ FORM - FORMULARIOS SPRING
 <body>
 
 	<section id="login" class="panel panel-primary">
+			<c:if test="${not empty param['semacesso']}">
+				<div>
+					<div class="alert alert-warning">Usuario e/ou senha errada!</div>
+				</div>
+			</c:if>
+			<c:if test="${not empty param['sair']}">
+				<div >
+					<div class="alert alert-info">deslogado!</div>
+				</div>
+			</c:if>
+			
 		<form action="${path}/autenticar" method="post">
 			<div class="panel panel-heading">
 				Pizzaria - login
 			</div>
 			<div class="panel panel-body">
 				<label for="usuario">Usuario: </label>
-				<input id="usuario" name="usuario" class="form-control"/>
+				<input id="usuario" name="usuario" class="form-control" required/>
 				
 				<label for="senha">Senha: </label>
-				<input type="password" id="senha" name="senha" class="form-control"/>
+				<input type="password" id="senha" name="senha" class="form-control" required/>
 			</div>
 			<div class="panel panel-footer">
 				<button id="btn-login" class="btn btn-primary">Entrar</button>

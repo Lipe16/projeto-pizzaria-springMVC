@@ -1,0 +1,9 @@
+package br.com.filipe.pizzaria.modelo.repositorios;
+
+import org.springframework.data.repository.CrudRepository;
+
+import br.com.filipe.pizzaria.modelo.entidades.Usuario;
+
+public interface UsuarioRepositorio extends CrudRepository<Usuario,Long>{
+
+}

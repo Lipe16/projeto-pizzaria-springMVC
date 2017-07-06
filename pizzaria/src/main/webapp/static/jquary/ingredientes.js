@@ -80,11 +80,14 @@ var aplicarListners = function(){
 		
 		var id = $(this).parents('tr').data('id');
 		
+		var csrf = $('#_csrf').val();
+		
 		var ingredientes = $('#quantidade-ingredientes').text();
 
 	    $.ajax({
 	    	        url: "ingredientes/"+id,
 	    	        type: "DELETE",
+	    	        headers:{'X-CSRF-TOKEN':csrf},
 	    	        //  type: 'DELETE',
 	    	        success: function(result){
 	    	            $('tr[data-id="'+id+'"]').remove();

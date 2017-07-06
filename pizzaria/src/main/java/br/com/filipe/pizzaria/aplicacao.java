@@ -35,9 +35,9 @@ public class aplicacao implements WebApplicationInitializer{
 		servletContext.addListener(new ContextLoaderListener(webApplicationContext));
 		
 		
-		//filtro para ser usado com metodo que vê a necessidade da view na hora de extrair informações no BD
+		//filtro para ser usado com metodo que vê a necessidade da view na hora de extrair informações no BD, controla requisicoes
 		FilterRegistration.Dynamic filter = servletContext.addFilter("openEntityManagerFilter", buildOpenEntityManagerFilter());
-		filter.addMappingForUrlPatterns(getDispatcherTypes(), false, "/app/*");
+		filter.addMappingForUrlPatterns(getDispatcherTypes(), false, "/*");
 		
 	}
 	

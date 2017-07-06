@@ -28,7 +28,6 @@
 <fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.entidades.Ingrediente"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.InitBinder"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.WebDataBinder"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="br.com.filipe.pizzaria.propertyeditors.IngredientePropertyEditor"/>
 <fullyQualifiedTypeName name="org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer"/>
 <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
@@ -36,4 +35,23 @@
 <fullyQualifiedTypeName name="org.springframework.security.access.annotation.Secured"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.EnableAspectJAutoProxy"/>
 <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetails"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.authority.SimpleGrantedAuthority"/>
+<fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.entidades.Usuario"/>
+<fullyQualifiedTypeName name="br.com.filipe.pizzaria.modelo.repositorios.UsuarioRepositorio"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetailsService"/>
+<fullyQualifiedTypeName name="br.com.filipe.pizzaria.servicos.ServicoAutenticacao"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
 </qualifiedTypeNameHistroy>

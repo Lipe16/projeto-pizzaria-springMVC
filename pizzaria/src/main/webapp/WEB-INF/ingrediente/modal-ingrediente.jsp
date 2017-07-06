@@ -27,16 +27,19 @@ FORM - FORMULARIOS SPRING
 						ingrediente</h4>
 				</div>
 				<div class="modal-body">
+					<input type="hidden" id="_csrf" name="_csrf" value="${_csrf.token}">
+					<input type="hidden" id="id" name="id" value="0" />
 
 
-
-					<label for="nome">Nome: </label> <input id="nome" name="nome"
-						class="form-control"> <label for="categoria">Categoria:
-					</label> <select id="categoria" name="categoria" class="form-control">
+					<label for="nome">Nome: </label> 
+					<input id="nome" name="nome" class="form-control"> 
+					<label for="categoria">Categoria:</label> 
+					<select id="categoria" name="categoria" class="form-control">
 						<c:forEach items="${categorias}" var="categoria">
 							<option value="${categoria}">${categoria}</option>
 						</c:forEach>
-					</select> <input type="hidden" id="id" name="id" value="0" />
+					</select> 
+
 
 				</div>
 				<div class="modal-footer">

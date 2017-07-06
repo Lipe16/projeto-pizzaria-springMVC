@@ -1,5 +1,8 @@
 package br.com.filipe.pizzaria.configuracoes;
 
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.security.access.annotation.Secured;
@@ -8,22 +11,46 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import br.com.filipe.pizzaria.modelo.repositorios.UsuarioRepositorio;
+import br.com.filipe.pizzaria.servicos.ServicoAutenticacao;
+
+
 
 @Configuration
 @EnableWebSecurity
 public class ConfiguracaoSeguranca extends WebSecurityConfigurerAdapter{
 	
+
+	
+	@Autowired private ServicoAutenticacao servicoAutenticacao;
+	
+	
+	@Bean
+	public BCryptPasswordEncoder encoder(){
+		return new BCryptPasswordEncoder();
+	}
+	
+	
 	
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		
-		auth
-		.inMemoryAuthentication().withUser("admin").password("admin").roles("pizzaria");
+		
+		auth.userDetailsService(servicoAutenticacao)
+		.passwordEncoder(encoder());
+		
 		/* 	CRIA UM USUARIO NA MEMORIA
 		auth
 		.inMemoryAuthentication().withUser("admin").password("admin").roles("pizzaria");
 		*/
 	}
+	
+	
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
@@ -31,7 +58,7 @@ public class ConfiguracaoSeguranca extends WebSecurityConfigurerAdapter{
 		
 			http
 			.authorizeRequests()
-			.antMatchers("/app/*").hasRole("pizzaria")
+			.antMatchers("/app/*").hasRole("PIZZARIA")
 		.and()
 			.formLogin()
 				.loginPage("/login.jsp")
@@ -59,5 +86,7 @@ public class ConfiguracaoSeguranca extends WebSecurityConfigurerAdapter{
 		// TODO Auto-generated method stub
 		super.configure(web);
 	}
+	
+
 
 }

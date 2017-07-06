@@ -1,0 +1,5 @@
+package br.com.filipe.pizzaria.servicos;
+
+public class ServicoAutenticacao {
+
+}

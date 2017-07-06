@@ -1,0 +1,106 @@
+/**
+ * 
+ */
+$(document).ready(function(){
+
+	aplicarListners();
+	 aplicarListnerSalvar();
+	
+
+	
+});
+
+var limparModal = function(){
+	$('#id').val('');
+	$('#nome').val('');
+	$('#preco').val('');
+	$('#categoria').val('');
+	$('#ingredientes option').attr('selected', false);
+};
+
+var aplicarListnerSalvar = function(){
+		//--------------------------------------
+		$('#btn-salvar').on('click', function(){
+					
+			var url = 'pizzas';
+			var dadosPizza = $('#form-pizza').serialize();
+			
+			$.post(url, dadosPizza)
+				.done(function(pagina){
+		
+					$('#secao-pizzas').html(pagina);
+					aplicarListners();
+				})
+				.fail(function(){
+					alert('Erro ao salvar!');
+					
+				})
+				.always(function(){
+					$('#modal-pizza').modal('hide');
+				});
+		});
+}
+
+
+
+var aplicarListners = function(){
+	
+	$('#modal-pizza').on('hide.bs.modal', limparModal);
+	
+	
+	//-----------------------------------
+	$('.btn-deletar').on('click', function(){
+		
+		
+		var id = $(this).parents('tr').data('id');
+		
+		var csrf = $('#_csrf').val();
+		
+		var ingredientes = $('#quantidade-pizzas').text();
+
+	    $.ajax({
+	    	        url: "pizzas/"+id,
+	    	        type: "DELETE",
+	    	       
+	    	        success: function(result){
+	    	            $('tr[data-id="'+id+'"]').remove();
+	    	            $('#quantidade-ingredientes').text(ingredientes - 1);
+	    	        }
+	    	    })
+		
+		
+	});
+	
+	
+	
+	//------------------------------------
+	$('.btn-editar').on('click', function(){
+				
+		var id = $(this).parents('tr').data('id');
+		var url = 'pizzas/'+id;
+		
+		$.get(url)
+		.done(function(pizza){//pega um objeto json que a pagina contem
+	    	
+			$('#id').val(pizza.id);
+			$('#nome').val(pizza.nome);
+			$('#preco').val(pizza.preco);
+			$('#categoria').val(pizza.categoria);
+		
+			
+			pizza.ingredientes.forEach(function(ingrediente){
+				var id = ingrediente.id;
+				// seleciona as opções de forma bruta
+				$('#ingredientes option[value='+id+']').attr('selected', true);
+			});
+		
+			
+			$('#modal-pizza').modal('show');
+	    	
+	    });
+		
+		
+	});
+	
+}
+
