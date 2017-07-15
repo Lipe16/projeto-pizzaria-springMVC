@@ -1,8 +1,0 @@
-
-
-public class Snippet {
-	public static void Main(String args[]){
-		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-		System.out.println(encoder.encode("admin"));
-	}
-}

@@ -44,18 +44,22 @@ FORM - FORMULARIOS SPRING
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Pizzaria</a>
+      <a class="navbar-brand" href="#"><spring:message code="views.menu.pizzaria" /></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	     	    <li><a href="ingredientes.jsp">Ingredientes</a></li>
-	            <li><a href="pizzas.jsp">Pizzas</a></li>
+	     	    <li><a href="ingredientes.jsp"><spring:message code="views.menu.ingredientes" /></a></li>
+	            <li><a href="pizzas.jsp"><spring:message code="views.menu.pizzas" /></a></li>
+	      		
+	      		
+	      		<li><a href="?lang=pt_BR"><img height="25px" src="${path}/static/image/br.png"></a></li>
+	     		<li><a href="?lang=en_US"><img  height="25px" src="${path}/static/image/us.png"></a></li>
 	      </ul>
 	    <form method="post" action="${path}/sair" class="navbar-form navbar-left" >
 	    		 <div class="form-group">
-	        		<button type="submit" class="btn btn-default">Sair</button>
+	        		<button type="submit" class="btn btn-default"><spring:message code="views.menu.sair" /></button>
 	        		<input type="hidden" name="_csrf" value="${_csrf.token}">
 	        	</div>
 	      </form>

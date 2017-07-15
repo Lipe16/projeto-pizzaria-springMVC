@@ -1,0 +1,4 @@
+views.menu.pizzaria = Pizzaria
+views.menu.pizzas = Pizzas
+views.menu.ingredientes = Ingredients
+views.menu.sair = Logout

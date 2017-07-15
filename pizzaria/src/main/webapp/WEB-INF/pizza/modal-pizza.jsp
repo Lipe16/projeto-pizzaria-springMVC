@@ -18,28 +18,28 @@ FORM - FORMULARIOS SPRING
     	<form id="form-pizza" >
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="myModalLabel">Informações da Pizza</h4>
+		        <h4 class="modal-title" id="myModalLabel"><spring:message code="views.pizzas.modal.informacoes_pizza" /></h4>
 		      </div>
 		      <div class="modal-body">
 		      
 		      		<input type="hidden" id="_csrf" name="_csrf" value="${_csrf.token}">
 		      		<input type="hidden" id="id" name="id" value="0"/>
 		      
-			        <label for="nome">Nome: </label>
+			        <label for="nome"><spring:message code="views.pizzas.modal.nome" />: </label>
 					<input id="nome" name="nome" class="form-control">
 					
 					
-					<label for="preco">Preco: </label>
+					<label for="preco"><spring:message code="views.pizzas.modal.preco" />: </label>
 					<input id="preco" name="preco" class="form-control">
 					
-					<label for="categoria">Categoria: </label>
+					<label for="categoria"><spring:message code="views.pizzas.modal.categoria" />: </label>
 					<select id="categoria" name="categoria" class="form-control">
 						<c:forEach items="${categorias}" var="categoria">
 							<option value="${categoria}">${categoria}</option>
 						</c:forEach>
 					</select>
 					
-					<label for="ingredientes">Ingredientes: </label>
+					<label for="ingredientes"><spring:message code="views.pizzas.modal.ingredientes" />: </label>
 					<select id="ingredientes" name="ingredientes" class="form-control" multiple="multiple">
 						<c:forEach items="${ingredientes}" var="ingrediente">
 							<option value="${ingrediente.id}">${ingrediente.nome}</option>
@@ -50,8 +50,8 @@ FORM - FORMULARIOS SPRING
 					
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		        <button id="btn-salvar" type="button" class="btn btn-primary">Save</button>
+		        <button type="button" class="btn btn-default" data-dismiss="modal"><spring:message code="views.pizzas.modal.fechar" /></button>
+		        <button data-dismiss="modal" id="btn-salvar" type="button" class="btn btn-primary"><spring:message code="views.pizzas.modal.salvar" /></button>
 		      </div>
      	</form>
     </div>

@@ -1,5 +1,0 @@
-package br.com.filipe.pizzaria.modelo.repositorios;
-
-public interface UsuarioRepositorio {
-
-}

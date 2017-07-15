@@ -15,13 +15,13 @@ FORM - FORMULARIOS SPRING
 <table class="table table-hover table-condensed table-striped table-bordered">
 	<thead>
 		<tr>
-			<td style="width: 10%">#</td>
-			<td style="width: 50%">Nome</td>
-			<td style="width: 20%">Preco</td>
-			<td style="width: 10%">Categoria</td>
-			<td style="width: 10%">Ingredientes</td>
-			<td style="width: 10%">Editar</td>
-			<td style="width: 10%">Remover</td>
+			<td style="width: 3%">#</td>
+			<td style="width: 30%"><spring:message code="views.pizzas.tabela.nome" /></td>
+			<td style="width: 20%"><spring:message code="views.pizzas.tabela.preco" /></td>
+			<td style="width: 10%"><spring:message code="views.pizzas.tabela.categoria" /></td>
+			<td style="width: 10%"><spring:message code="views.pizzas.tabela.ingredientes" /></td>
+			<td style="width: 20%"><spring:message code="views.pizzas.tabela.editar" /></td>
+	
 		</tr>
 	</thead>
 	<tbody>
@@ -32,7 +32,7 @@ FORM - FORMULARIOS SPRING
 				
 				<td>
 
-					<fmt:formatNumber value="${pizza.preco}" type="currency"/>
+					<fmt:formatNumber value="${pizza.preco}" type="currency" />
 				</td>
 				
 				<td>${pizza.categoria}</td>
@@ -44,20 +44,22 @@ FORM - FORMULARIOS SPRING
 				</td>
 				
 				
-				<td><button type="button" class="btn btn-warning btn-editar">Editar</button></td>
-				<td><button type="button" class="btn-deletar btn btn-danger ">Deletar</button> </td>
+				<td colspan="3">
+					<button type="button" class="btn btn-warning btn-editar"><spring:message code="views.pizzas.tabela.editar" /></button>
+					<button type="button" class="btn-deletar btn btn-danger "><spring:message code="views.pizzas.tabela.remover" /></button> 
+				</td>
 
 			</tr>
 		</c:forEach>
 	</tbody>
 	<tfoot>
 		<tr>
-			<td colspan="7">Pizzas cadastrados: <span id="quantidade-ingredientes">${pizzas.size()}</span></td>
+			<td colspan="7"><spring:message code="views.pizzas.tabela.pizzas_cadastradas" />: <span id="quantidade-ingredientes">${pizzas.size()}</span></td>
 		</tr>
 				<tr>
 			<td colspan="7">
 				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-pizza">
-				  Adicionar Pizza
+				 	<spring:message code="views.pizzas.tabela.adicionar" />
 				</button>
 		</td>
 		</tr>

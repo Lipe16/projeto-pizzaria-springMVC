@@ -1,0 +1,11 @@
+views.menu.pizzaria = Pizzaria
+views.menu.pizzas = Pizzas
+views.menu.ingredientes = Ingredients
+views.menu.sair = Logout
+
+views.pizzas.tabela.nome = name
+views.pizzas.tabela.preco = cust
+views.pizzas.tabela.categoria = Category
+views.pizzas.tabela.ingredientes = Ingredients
+views.pizzas.tabela.editar = Edit
+views.pizzas.tabela.remover = Remove

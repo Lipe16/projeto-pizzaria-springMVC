@@ -1,0 +1,27 @@
+views.menu.pizzaria = Pizzaria
+views.menu.pizzas = Pizzas
+views.menu.ingredientes = Ingredients
+views.menu.sair = Logout
+
+views.pizzas.tabela.nome = name
+views.pizzas.tabela.preco = cust
+views.pizzas.tabela.categoria = Category
+views.pizzas.tabela.ingredientes = Ingredients
+views.pizzas.tabela.editar = Edit
+views.pizzas.tabela.remover = Remove
+views.pizzas.tabela.adicionar = ADD
+views.pizzas.tabela.pizzas_cadastradas = Pizzas indexed
+views.pizzas.tabela.ingredientes_cadastradas = Ingredients indexed
+
+
+views.pizzas.modal.nome = Name
+views.pizzas.modal.preco = Value
+views.pizzas.modal.categoria = Category
+
+
+views.pizzas.modal.informacoes_ingrediente = ingredient information
+
+views.pizzas.modal.informacoes_pizza = Pizza information
+
+views.pizzas.modal.fechar = Close
+views.pizzas.modal.salvar = Salve

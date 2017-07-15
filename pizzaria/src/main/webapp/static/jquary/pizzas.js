@@ -36,7 +36,7 @@ var aplicarListnerSalvar = function(){
 					
 				})
 				.always(function(){
-					$('#modal-pizza').modal('hide');
+					$('#modal-pizza').on('hide');
 				});
 		});
 }

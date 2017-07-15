@@ -1,0 +1,10 @@
+views.menu.pizzaria = Pizzaria
+views.menu.pizzas = Pizzas
+views.menu.ingredientes = Ingredientes
+views.menu.sair = Sair
+
+views.pizzas.tabela.nome = Nome
+views.pizzas.tabela.preco = Preço
+views.pizzas.tabela.categoria = Categoria
+views.pizzas.tabela.ingredientes = Ingredientes
+views.pizzas.tabela.editar = Editar
