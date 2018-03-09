@@ -29,7 +29,7 @@ public class ConfiguracaoDB {
 		dataSource.setDriverClass("com.mysql.jdbc.Driver");
 		dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/pizzaria");
 		dataSource.setUser("root");
-		dataSource.setPassword("admin852");
+		dataSource.setPassword("12345");
 		return dataSource;
 	}
 	

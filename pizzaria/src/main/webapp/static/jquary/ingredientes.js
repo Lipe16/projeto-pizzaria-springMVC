@@ -13,7 +13,7 @@ $(document).ready(function(){
 });
 
 var limparModal = function(){
-	$('#id').val('');
+	$('#id').val(0);
 	$('#nome').val('');
 	
 	
@@ -33,6 +33,7 @@ var aplicarListnersSalvar = function(){
 				$('#secao-ingredientes').html(pagina);
 				limparModal();
 				aplicarListners();
+				
 				
 			})
 		

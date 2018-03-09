@@ -11,7 +11,7 @@ $(document).ready(function(){
 });
 
 var limparModal = function(){
-	$('#id').val('');
+	$('#id').val(0);
 	$('#nome').val('');
 	$('#preco').val('');
 	$('#categoria').val('');

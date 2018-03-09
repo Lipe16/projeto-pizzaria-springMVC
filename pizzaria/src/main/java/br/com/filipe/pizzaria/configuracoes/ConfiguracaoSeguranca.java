@@ -57,16 +57,26 @@ public class ConfiguracaoSeguranca extends WebSecurityConfigurerAdapter{
 		
 		
 			http
-			.authorizeRequests()
-			.antMatchers("/app/*").hasRole("PIZZARIA")
-		.and()
+			
+			
 			.formLogin()
-				.loginPage("/login.jsp")
-				.loginProcessingUrl("/autenticar")
-				.defaultSuccessUrl("/app/pizzas")
-				.failureUrl("/login.jsp?semacesso=true")
-				.usernameParameter("usuario")
-				.passwordParameter("senha")
+			.loginPage("/login.jsp")
+			.loginProcessingUrl("/autenticar")
+			.defaultSuccessUrl("/app/pizzas")
+			.failureUrl("/login.jsp?semacesso=true")
+			.usernameParameter("usuario")
+			.passwordParameter("senha").and()
+		
+			
+			.authorizeRequests()
+			.antMatchers("/app/**")
+			.access("hasRole('pizzaria')").and()
+			
+			.authorizeRequests()
+			.antMatchers("/app/**")
+			.authenticated()
+		
+
 		.and()
 			.logout()
 			.logoutUrl("/sair")
