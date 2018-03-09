@@ -11,14 +11,21 @@ Usuario: admin
 o spring faz criptografia de senha ao colocar no BD, a senha abaixo é admin criptografada
 senha: $2a$10$qyw55m6.b3VV19Ie87Z16.HJSFOQHlxF9MrX6uk78/K00iArsmPU.
 
-coloque também a permissão "Pizzaria para esse usuario", para fazer isso você vai ter que inserir o valor "pizzaria" na tabela permissao e usar id desse valor na tabela usuario_permissao com id do usuario que você criou ou pode ser admin mesmo
+coloque também a permissão "Pizzaria para esse usuario", para fazer isso você vai ter que inserir o valor "pizzaria" na tabela permissao e usar id desse valor na tabela usuario_permissao com id do usuario que você criou ou pode ser admin mesmo:
+![permissão](https://image.ibb.co/mmD3Nn/BDTabelapermissao.png)
 
-https://image.ibb.co/mmD3Nn/BDTabelapermissao.png
-https://image.ibb.co/eKZzv7/BDTabelapermissao_Usuario.png
-https://image.ibb.co/hgrq2n/BDTabela_Usuario.png
+![usuario](https://image.ibb.co/hgrq2n/BDTabela_Usuario.png)
+
+![permissão usuario](https://image.ibb.co/eKZzv7/BDTabelapermissao_Usuario.png)
 
 
-https://image.ibb.co/bEE2hn/autenticacao.png
-https://image.ibb.co/k7UPv7/Internacionalizacao.png
-https://image.ibb.co/iDHYoS/Pizzaria_Spring.png
-https://image.ibb.co/gfWtoS/populanto_Tabelas.png
+Autenticação
+![Autenticação](https://image.ibb.co/bEE2hn/autenticacao.png)
+
+Internacionalização
+![Internacionalização](https://image.ibb.co/k7UPv7/Internacionalizacao.png)
+
+![spring](https://image.ibb.co/iDHYoS/Pizzaria_Spring.png)
+
+![Populando tabelas](https://image.ibb.co/gfWtoS/populanto_Tabelas.png)
+
