@@ -1,5 +1,7 @@
 ﻿# projeto-pizzaria-springMVC
-Projeto java de um app de pizzaria utilizando spring (fontes aprendidos no curso)
+Projeto java de um app de pizzaria utilizando spring (fontes aprendidos em um curso do youtube [Léo Silva](https://www.youtube.com/channel/UC4I5zgAzQMpAC44C4jH-JGA))
+
+![Populando tabelas](https://image.ibb.co/gfWtoS/populanto_Tabelas.png)
 
   O projeto utiliza spring, banco de dados, hibernate, bootstrap, Jquary... Neste projeto é apresentando de maneira simples a estrutura do spring e como ele trabalha.
 
@@ -25,7 +27,6 @@ Autenticação
 Internacionalização
 ![Internacionalização](https://image.ibb.co/k7UPv7/Internacionalizacao.png)
 
+Um pouco mais
 ![spring](https://image.ibb.co/iDHYoS/Pizzaria_Spring.png)
-
-![Populando tabelas](https://image.ibb.co/gfWtoS/populanto_Tabelas.png)
 
